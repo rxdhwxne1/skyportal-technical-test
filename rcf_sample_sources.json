@@ -1,0 +1,2975 @@
+{
+  "status": "success",
+  "data": {
+    "totalMatches": 11,
+    "sources": [
+      {
+        "offset": 0.0,
+        "altdata": null,
+        "mpc_name": null,
+        "healpix": 743488788004615739,
+        "redshift": 0.01521,
+        "dist_nearest_source": null,
+        "gcn_crossmatch": null,
+        "redshift_error": null,
+        "mag_nearest_source": null,
+        "tns_name": "2021mnj",
+        "detect_photometry_count": null,
+        "ra_dis": null,
+        "redshift_origin": null,
+        "e_mag_nearest_source": null,
+        "tns_info": null,
+        "created_at": "2021-05-15T05:56:47.200683",
+        "id": "ZTF21abbomrf",
+        "redshift_history": [
+          {
+            "value": "0.02",
+            "set_at_utc": "2021-05-16T16:18:31.737823",
+            "set_by_user_id": 17
+          },
+          {
+            "value": "0.01",
+            "set_at_utc": "2021-05-16T16:28:58.319910",
+            "set_by_user_id": 17
+          }
+        ],
+        "transient": false,
+        "score": 0.9999837279319763,
+        "modified": "2023-06-16T21:52:21.896866",
+        "dec_dis": null,
+        "host_id": null,
+        "varstar": false,
+        "ra": 221.3358891,
+        "dec": 38.7384111,
+        "ra_err": null,
+        "summary": null,
+        "is_roid": false,
+        "origin": "Kowalski",
+        "dec_err": null,
+        "summary_history": null,
+        "alias": null,
+        "groups": [
+          {
+            "nickname": "rcf",
+            "name": "Redshift Completeness Factor",
+            "description": null,
+            "private": false,
+            "single_user_group": false,
+            "id": 41,
+            "created_at": "2020-10-21T06:20:34.429576",
+            "modified": "2020-10-21T06:20:34.429576",
+            "active": true,
+            "requested": false,
+            "saved_at": "2021-05-16T16:17:12.627197",
+            "saved_by": {
+              "username": "jdoe",
+              "first_name": "John",
+              "last_name": "Doe",
+              "bio": null,
+              "affiliations": [
+                "Caltech"
+              ],
+              "is_bot": false,
+              "expiration_date": null,
+              "id": 17,
+              "created_at": "2020-10-21T06:20:33.922182",
+              "modified": "2024-03-26T16:54:31.449418"
+            }
+          }
+        ],
+        "host": null,
+        "host_offset": null,
+        "gal_lon": 66.23041741570651,
+        "gal_lat": 63.579252332244145,
+        "luminosity_distance": 68.17494584999011,
+        "dm": 34.16812400831147,
+        "angular_diameter_distance": 66.14743796751443,
+        "thumbnails": [
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=221.3358094&dec=38.7384864&size=200&layer=dr8&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21abbomrf",
+            "id": 3031984,
+            "modified": "2021-05-15T05:56:47.254740",
+            "type": "dr8",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-15T05:56:47.254740"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://skyserver.sdss.org/dr18/SkyServerWS/ImgCutout/getjpeg?TaskName=SkyServer.Chart.List&ra=221.3358094&dec=38.7384864&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+            "obj_id": "ZTF21abbomrf",
+            "id": 3031983,
+            "modified": "2021-05-15T05:56:47.254740",
+            "type": "sdss",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-15T05:56:47.254740"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/a1/32/ZTF21abbomrf_new.png",
+            "public_url": "/static/thumbnails/a1/32/ZTF21abbomrf_new.png",
+            "obj_id": "ZTF21abbomrf",
+            "id": 3031985,
+            "modified": "2022-10-19T08:34:29.495833",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-15T05:56:48.735524"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/a1/32/ZTF21abbomrf_ref.png",
+            "public_url": "/static/thumbnails/a1/32/ZTF21abbomrf_ref.png",
+            "obj_id": "ZTF21abbomrf",
+            "id": 3031986,
+            "modified": "2022-10-19T08:35:07.426588",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-15T05:56:48.857924"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/a1/32/ZTF21abbomrf_sub.png",
+            "public_url": "/static/thumbnails/a1/32/ZTF21abbomrf_sub.png",
+            "obj_id": "ZTF21abbomrf",
+            "id": 3031987,
+            "modified": "2022-10-19T08:35:01.426265",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-15T05:56:48.967649"
+          },
+          {
+            "file_uri": null,
+            "public_url": "http://ps1images.stsci.edu/cgi-bin/fitscut.cgi?red=/rings.v3.skycell/2129/062/rings.v3.skycell.2129.062.stk.i.unconv.fits&blue=/rings.v3.skycell/2129/062/rings.v3.skycell.2129.062.stk.g.unconv.fits&green=/rings.v3.skycell/2129/062/rings.v3.skycell.2129.062.stk.r.unconv.fits&x=221.335806&y=38.738482&size=250&wcs=1&asinh=True&autoscale=99.750000",
+            "obj_id": "ZTF21abbomrf",
+            "id": 3040003,
+            "modified": "2021-05-15T11:40:52.287380",
+            "type": "ps1",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-15T11:40:52.287380"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=221.3358891&dec=38.7384111&size=200&layer=ls-dr9&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21abbomrf",
+            "id": 16188001,
+            "modified": "2024-01-10T23:32:17.224173",
+            "type": "ls",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2024-01-10T23:32:17.224173"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/a1/32/ZTF21abbomrf_new.png",
+            "public_url": "/static/thumbnails/a1/32/ZTF21abbomrf_new.png",
+            "obj_id": "ZTF21abbomrf",
+            "id": 19622646,
+            "modified": "2024-08-22T19:38:19.435408",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2024-08-22T19:38:19.435408"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/a1/32/ZTF21abbomrf_ref.png",
+            "public_url": "/static/thumbnails/a1/32/ZTF21abbomrf_ref.png",
+            "obj_id": "ZTF21abbomrf",
+            "id": 19622647,
+            "modified": "2024-08-22T19:38:20.791237",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2024-08-22T19:38:20.791237"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/a1/32/ZTF21abbomrf_sub.png",
+            "public_url": "/static/thumbnails/a1/32/ZTF21abbomrf_sub.png",
+            "obj_id": "ZTF21abbomrf",
+            "id": 19622648,
+            "modified": "2024-08-22T19:38:20.949366",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T19:38:20.949366"
+          }
+        ],
+        "classifications": [
+          {
+            "classification": "Type Ia",
+            "probability": 0.9,
+            "author_id": 17,
+            "obj_id": "ZTF21abbomrf",
+            "created_at": "2021-05-18T15:53:48.325815",
+            "origin": null,
+            "taxonomy_id": 3,
+            "ml": false,
+            "author_name": "jdoe",
+            "id": 20397,
+            "modified": "2021-05-18T15:53:48.325815",
+            "groups": [],
+            "votes": []
+          }
+        ],
+        "comments": [
+          {
+            "obj_id": "ZTF21abbomrf",
+            "modified": "2021-05-16T16:34:16.927666",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 17,
+            "id": 46841,
+            "created_at": "2021-05-16T16:34:16.927666",
+            "text": "NGC 5754",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21abbomrf",
+            "modified": "2021-05-16T16:39:38.181313",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 17,
+            "id": 46842,
+            "created_at": "2021-05-16T16:39:38.181313",
+            "text": "1.2\" from ZTF20aaurjcd",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21abbomrf",
+            "modified": "2021-05-16T16:41:04.106439",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 17,
+            "id": 46844,
+            "created_at": "2021-05-16T16:41:04.106439",
+            "text": "redshift from NED for NGC 5754",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21abbomrf",
+            "modified": "2021-05-18T08:48:04.536678",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 30,
+            "id": 46911,
+            "created_at": "2021-05-18T08:48:04.536678",
+            "text": "spec on pharos shows Type II at z=0.015",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21abbomrf",
+            "modified": "2021-05-18T17:40:59.807619",
+            "attachment_name": "pysedm_report_auto_robot_lstep1__crr_b_ifu20210518_04_39_47_ZTF21abbomrf.png",
+            "origin": null,
+            "author_id": 12,
+            "id": 46985,
+            "created_at": "2021-05-18T17:40:59.807619",
+            "text": "pysedm_report:spc2684",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21abbomrf",
+            "modified": "2021-05-19T00:08:17.945459",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 17,
+            "id": 46995,
+            "created_at": "2021-05-19T00:08:17.945459",
+            "text": "Uploaded to TNS",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21abbomrf",
+            "modified": "2021-05-19T08:11:31.213296",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 42,
+            "id": 47042,
+            "created_at": "2021-05-19T08:11:31.213296",
+            "text": "Interestingly close to ZTF20aaurjcd but presumably unrelated",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21abbomrf",
+            "modified": "2021-05-20T10:33:53.889138",
+            "attachment_name": "ZTF20aaurjcd_position.png",
+            "origin": null,
+            "author_id": 106,
+            "id": 47311,
+            "created_at": "2021-05-20T10:33:53.889138",
+            "text": "positions of ZTF21abbomrf and ZTF20aaurjcd are clearly distinct",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21abbomrf",
+            "modified": "2021-05-24T06:30:54.427875",
+            "attachment_name": "pysedm_report_auto_robot_lstep1__crr_b_ifu20210524_05_33_34_ZTF21abbomrf.png",
+            "origin": null,
+            "author_id": 12,
+            "id": 47678,
+            "created_at": "2021-05-24T06:30:54.427875",
+            "text": "pysedm_report:spc2729",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21abbomrf",
+            "modified": "2024-02-07T05:30:17.126042",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 23,
+            "id": 220202,
+            "created_at": "2024-02-07T05:30:17.126042",
+            "text": "not same as https://fritz.science/source/ZTF20aaurjcd",
+            "bot": false
+          }
+        ]
+      },
+      {
+        "offset": 0.0,
+        "altdata": null,
+        "mpc_name": null,
+        "healpix": 2281917639279034719,
+        "redshift": null,
+        "dist_nearest_source": null,
+        "gcn_crossmatch": null,
+        "internal_key": "df9f980b-03fc-4b4c-8f85-cc60104bc746",
+        "redshift_error": null,
+        "mag_nearest_source": null,
+        "tns_name": "2021mnc",
+        "detect_photometry_count": null,
+        "ra_dis": null,
+        "redshift_origin": null,
+        "e_mag_nearest_source": null,
+        "tns_info": null,
+        "created_at": "2021-05-14T11:02:04.861980",
+        "id": "ZTF21abbkwhn",
+        "redshift_history": null,
+        "transient": false,
+        "score": 0.9999743700027466,
+        "modified": "2023-06-16T21:52:21.784192",
+        "dec_dis": null,
+        "host_id": null,
+        "varstar": false,
+        "ra": 250.3103566,
+        "dec": 19.4778884,
+        "ra_err": null,
+        "summary": null,
+        "is_roid": false,
+        "origin": "Kowalski",
+        "dec_err": null,
+        "summary_history": null,
+        "alias": null,
+        "groups": [
+          {
+            "nickname": "rcf",
+            "name": "Redshift Completeness Factor",
+            "description": null,
+            "private": false,
+            "single_user_group": false,
+            "id": 41,
+            "created_at": "2020-10-21T06:20:34.429576",
+            "modified": "2020-10-21T06:20:34.429576",
+            "active": true,
+            "requested": false,
+            "saved_at": "2021-05-16T16:16:55.385756",
+            "saved_by": {
+              "username": "jdoe",
+              "first_name": "John",
+              "last_name": "Doe",
+              "bio": null,
+              "affiliations": [
+                "Caltech"
+              ],
+              "is_bot": false,
+              "expiration_date": null,
+              "id": 17,
+              "created_at": "2020-10-21T06:20:33.922182",
+              "modified": "2024-03-26T16:54:31.449418"
+            }
+          }
+        ],
+        "host": null,
+        "host_offset": null,
+        "gal_lon": 37.64162550217953,
+        "gal_lat": 37.11916406766281,
+        "luminosity_distance": null,
+        "dm": null,
+        "angular_diameter_distance": null,
+        "thumbnails": [
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=250.3103547&dec=19.4779048&size=200&layer=dr8&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21abbkwhn",
+            "id": 3020949,
+            "modified": "2021-05-14T11:02:04.908816",
+            "type": "dr8",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-14T11:02:04.908816"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://skyserver.sdss.org/dr18/SkyServerWS/ImgCutout/getjpeg?TaskName=SkyServer.Chart.List&ra=250.3103547&dec=19.4779048&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+            "obj_id": "ZTF21abbkwhn",
+            "id": 3020948,
+            "modified": "2021-05-14T11:02:04.908816",
+            "type": "sdss",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-14T11:02:04.908816"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/e0/89/ZTF21abbkwhn_new.png",
+            "public_url": "/static/thumbnails/e0/89/ZTF21abbkwhn_new.png",
+            "obj_id": "ZTF21abbkwhn",
+            "id": 3020950,
+            "modified": "2022-10-19T08:11:15.656531",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-14T11:02:07.142027"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/e0/89/ZTF21abbkwhn_ref.png",
+            "public_url": "/static/thumbnails/e0/89/ZTF21abbkwhn_ref.png",
+            "obj_id": "ZTF21abbkwhn",
+            "id": 3020951,
+            "modified": "2022-10-19T08:12:40.043109",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-14T11:02:07.250300"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/e0/89/ZTF21abbkwhn_sub.png",
+            "public_url": "/static/thumbnails/e0/89/ZTF21abbkwhn_sub.png",
+            "obj_id": "ZTF21abbkwhn",
+            "id": 3020952,
+            "modified": "2022-10-19T08:12:32.819242",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-14T11:02:07.355755"
+          },
+          {
+            "file_uri": null,
+            "public_url": "http://ps1images.stsci.edu/cgi-bin/fitscut.cgi?red=/rings.v3.skycell/1738/086/rings.v3.skycell.1738.086.stk.i.unconv.fits&blue=/rings.v3.skycell/1738/086/rings.v3.skycell.1738.086.stk.g.unconv.fits&green=/rings.v3.skycell/1738/086/rings.v3.skycell.1738.086.stk.r.unconv.fits&x=250.310357&y=19.477908&size=250&wcs=1&asinh=True&autoscale=99.750000",
+            "obj_id": "ZTF21abbkwhn",
+            "id": 3042698,
+            "modified": "2021-05-15T14:58:20.134098",
+            "type": "ps1",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-15T14:58:20.134098"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=250.3103566&dec=19.4778884&size=200&layer=ls-dr9&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21abbkwhn",
+            "id": 15247346,
+            "modified": "2023-10-31T15:47:13.461110",
+            "type": "ls",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2023-10-31T15:47:13.461110"
+          }
+        ],
+        "classifications": [
+          {
+            "classification": "Type Ic",
+            "probability": 0.99,
+            "author_id": 42,
+            "obj_id": "ZTF21abbkwhn",
+            "created_at": "2021-05-16T00:53:01.490410",
+            "origin": null,
+            "taxonomy_id": 3,
+            "ml": false,
+            "author_name": "jlawrence",
+            "id": 20353,
+            "modified": "2021-05-16T00:53:01.490410",
+            "groups": [],
+            "votes": []
+          }
+        ],
+        "comments": [
+          {
+            "obj_id": "ZTF21abbkwhn",
+            "modified": "2021-05-15T14:00:38.070767",
+            "attachment_name": "ZTF21abbkwhn-T2CatalogMatch.json",
+            "origin": null,
+            "author_id": 20,
+            "id": 46675,
+            "created_at": "2021-05-15T14:00:38.070767",
+            "text": "T2CatalogMatch",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21abbkwhn",
+            "modified": "2021-05-30T10:29:05.635614",
+            "attachment_name": "ZTF21abbkwhn-T2LightCurveSummary.json",
+            "origin": null,
+            "author_id": 20,
+            "id": 46676,
+            "created_at": "2021-05-15T14:00:38.295375",
+            "text": "T2LightCurveSummary",
+            "bot": true
+          }
+        ]
+      },
+      {
+        "offset": 0.0,
+        "altdata": null,
+        "mpc_name": null,
+        "healpix": 2205852236528400938,
+        "redshift": 0.03,
+        "dist_nearest_source": null,
+        "gcn_crossmatch": null,
+        "internal_key": "1991b2fc-9f5a-493d-8d48-bb59c13d8a2c",
+        "redshift_error": 0.003,
+        "mag_nearest_source": null,
+        "tns_name": "2021mbp",
+        "detect_photometry_count": null,
+        "ra_dis": null,
+        "redshift_origin": null,
+        "e_mag_nearest_source": null,
+        "tns_info": null,
+        "created_at": "2021-05-11T11:19:50.069296",
+        "id": "ZTF21abavdnj",
+        "redshift_history": [
+          {
+            "value": "0.02",
+            "set_at_utc": "2024-05-12T15:34:10.824339",
+            "uncertainty": "0.003",
+            "set_by_user_id": 30
+          }
+        ],
+        "transient": false,
+        "score": 0.9664983153343201,
+        "modified": "2024-05-12T15:34:10.822808",
+        "dec_dis": null,
+        "host_id": null,
+        "varstar": false,
+        "ra": 241.7649712,
+        "dec": 1.3814024,
+        "ra_err": null,
+        "summary": null,
+        "is_roid": false,
+        "origin": "Kowalski",
+        "dec_err": null,
+        "summary_history": null,
+        "alias": null,
+        "groups": [
+          {
+            "nickname": "rcf",
+            "name": "Redshift Completeness Factor",
+            "description": null,
+            "private": false,
+            "single_user_group": false,
+            "id": 41,
+            "created_at": "2020-10-21T06:20:34.429576",
+            "modified": "2020-10-21T06:20:34.429576",
+            "active": true,
+            "requested": false,
+            "saved_at": "2021-05-16T16:16:37.554361",
+            "saved_by": {
+              "username": "jdoe",
+              "first_name": "John",
+              "last_name": "Doe",
+              "bio": null,
+              "affiliations": [
+                "Caltech"
+              ],
+              "is_bot": false,
+              "expiration_date": null,
+              "id": 17,
+              "created_at": "2020-10-21T06:20:33.922182",
+              "modified": "2024-03-26T16:54:31.449418"
+            }
+          }
+        ],
+        "host": null,
+        "host_offset": null,
+        "gal_lon": 12.666508968368147,
+        "gal_lat": 36.57072226947825,
+        "luminosity_distance": 135.9496528912767,
+        "dm": 35.66689051538826,
+        "angular_diameter_distance": 128.1455866634713,
+        "thumbnails": [
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=241.7650264&dec=1.381401&size=200&layer=dr8&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21abavdnj",
+            "id": 2972354,
+            "modified": "2021-05-11T11:19:50.151927",
+            "type": "dr8",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-11T11:19:50.151927"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://skyserver.sdss.org/dr18/SkyServerWS/ImgCutout/getjpeg?TaskName=SkyServer.Chart.List&ra=241.7650264&dec=1.381401&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+            "obj_id": "ZTF21abavdnj",
+            "id": 2972353,
+            "modified": "2021-05-11T11:19:50.151927",
+            "type": "sdss",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-11T11:19:50.151927"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/01/c8/ZTF21abavdnj_new.png",
+            "public_url": "/static/thumbnails/01/c8/ZTF21abavdnj_new.png",
+            "obj_id": "ZTF21abavdnj",
+            "id": 2972355,
+            "modified": "2022-10-19T06:32:05.130140",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-11T11:19:59.647181"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/01/c8/ZTF21abavdnj_ref.png",
+            "public_url": "/static/thumbnails/01/c8/ZTF21abavdnj_ref.png",
+            "obj_id": "ZTF21abavdnj",
+            "id": 2972356,
+            "modified": "2022-10-19T06:32:19.880418",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-11T11:19:59.751149"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/01/c8/ZTF21abavdnj_sub.png",
+            "public_url": "/static/thumbnails/01/c8/ZTF21abavdnj_sub.png",
+            "obj_id": "ZTF21abavdnj",
+            "id": 2972357,
+            "modified": "2022-10-19T06:31:39.468863",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-11T11:19:59.923600"
+          },
+          {
+            "file_uri": null,
+            "public_url": "http://ps1images.stsci.edu/cgi-bin/fitscut.cgi?red=/rings.v3.skycell/1382/030/rings.v3.skycell.1382.030.stk.i.unconv.fits&blue=/rings.v3.skycell/1382/030/rings.v3.skycell.1382.030.stk.g.unconv.fits&green=/rings.v3.skycell/1382/030/rings.v3.skycell.1382.030.stk.r.unconv.fits&x=241.765017&y=1.381308&size=250&wcs=1&asinh=True&autoscale=99.750000",
+            "obj_id": "ZTF21abavdnj",
+            "id": 3018602,
+            "modified": "2021-05-14T09:52:33.490828",
+            "type": "ps1",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-14T09:52:33.490828"
+          }
+        ],
+        "classifications": [],
+        "comments": [
+          {
+            "obj_id": "ZTF21abavdnj",
+            "modified": "2021-07-14T04:50:33.494245",
+            "attachment_name": "ZTF21abavdnj-T2CatalogMatch.json",
+            "origin": null,
+            "author_id": 20,
+            "id": 46444,
+            "created_at": "2021-05-14T08:59:04.242664",
+            "text": "T2CatalogMatch",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21abavdnj",
+            "modified": "2021-07-14T04:50:33.700911",
+            "attachment_name": "ZTF21abavdnj-T2LightCurveSummary.json",
+            "origin": null,
+            "author_id": 20,
+            "id": 46445,
+            "created_at": "2021-05-14T08:59:04.467571",
+            "text": "T2LightCurveSummary",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21abavdnj",
+            "modified": "2021-05-14T08:59:04.698875",
+            "attachment_name": "ZTF21abavdnj-T2InfantCatalogEval.json",
+            "origin": null,
+            "author_id": 20,
+            "id": 46446,
+            "created_at": "2021-05-14T08:59:04.698875",
+            "text": "T2InfantCatalogEval",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21abavdnj",
+            "modified": "2021-05-19T09:14:34.053478",
+            "attachment_name": "pysedm_report_auto_robot_lstep1__crr_b_ifu20210519_08_17_19_ZTF21abavdnj.png",
+            "origin": null,
+            "author_id": 12,
+            "id": 47049,
+            "created_at": "2021-05-19T09:14:34.053478",
+            "text": "pysedm_report:spc2696",
+            "bot": true
+          }
+        ]
+      },
+      {
+        "offset": 0.0,
+        "altdata": null,
+        "mpc_name": null,
+        "healpix": 2213943879223758121,
+        "redshift": 0.069675,
+        "dist_nearest_source": null,
+        "gcn_crossmatch": null,
+        "internal_key": "f1a7c4e5-5d49-49e0-8cfe-a2656d4431b5",
+        "redshift_error": null,
+        "mag_nearest_source": null,
+        "tns_name": "2021lvg",
+        "detect_photometry_count": null,
+        "ra_dis": null,
+        "redshift_origin": null,
+        "e_mag_nearest_source": null,
+        "tns_info": null,
+        "created_at": "2021-05-10T17:17:59.782608",
+        "id": "ZTF21abaevgu",
+        "redshift_history": [
+          {
+            "value": "0.05",
+            "set_at_utc": "2021-05-11T11:18:28.509324",
+            "set_by_user_id": 106
+          }
+        ],
+        "transient": false,
+        "score": 0.5933680534362793,
+        "modified": "2023-06-16T21:52:15.439029",
+        "dec_dis": null,
+        "host_id": null,
+        "varstar": false,
+        "ra": 234.0372536,
+        "dec": 4.3124965,
+        "ra_err": null,
+        "summary": null,
+        "is_roid": false,
+        "origin": "Kowalski",
+        "dec_err": null,
+        "summary_history": null,
+        "alias": null,
+        "groups": [
+          {
+            "nickname": "rcf",
+            "name": "Redshift Completeness Factor",
+            "description": null,
+            "private": false,
+            "single_user_group": false,
+            "id": 41,
+            "created_at": "2020-10-21T06:20:34.429576",
+            "modified": "2020-10-21T06:20:34.429576",
+            "active": true,
+            "requested": false,
+            "saved_at": "2021-05-16T16:16:30.046240",
+            "saved_by": {
+              "username": "jdoe",
+              "first_name": "John",
+              "last_name": "Doe",
+              "bio": null,
+              "affiliations": [
+                "Caltech"
+              ],
+              "is_bot": false,
+              "expiration_date": null,
+              "id": 17,
+              "created_at": "2020-10-21T06:20:33.922182",
+              "modified": "2024-03-26T16:54:31.449418"
+            }
+          }
+        ],
+        "host": null,
+        "host_offset": null,
+        "gal_lon": 10.181714520652434,
+        "gal_lat": 44.608555773528074,
+        "luminosity_distance": 324.79279554390615,
+        "dm": 37.55803193643208,
+        "angular_diameter_distance": 283.85901782530783,
+        "thumbnails": [
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=234.0372863&dec=4.3124427&size=200&layer=dr8&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21abaevgu",
+            "id": 2951649,
+            "modified": "2021-05-10T17:17:59.844154",
+            "type": "dr8",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-10T17:17:59.844154"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://skyserver.sdss.org/dr18/SkyServerWS/ImgCutout/getjpeg?TaskName=SkyServer.Chart.List&ra=234.0372863&dec=4.3124427&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+            "obj_id": "ZTF21abaevgu",
+            "id": 2951648,
+            "modified": "2021-05-10T17:17:59.844154",
+            "type": "sdss",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-10T17:17:59.844154"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/18/a8/ZTF21abaevgu_new.png",
+            "public_url": "/static/thumbnails/18/a8/ZTF21abaevgu_new.png",
+            "obj_id": "ZTF21abaevgu",
+            "id": 2951650,
+            "modified": "2022-10-19T05:49:58.137701",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-10T17:18:13.135482"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/18/a8/ZTF21abaevgu_ref.png",
+            "public_url": "/static/thumbnails/18/a8/ZTF21abaevgu_ref.png",
+            "obj_id": "ZTF21abaevgu",
+            "id": 2951651,
+            "modified": "2022-10-19T05:50:04.950615",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-10T17:18:13.835778"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/18/a8/ZTF21abaevgu_sub.png",
+            "public_url": "/static/thumbnails/18/a8/ZTF21abaevgu_sub.png",
+            "obj_id": "ZTF21abaevgu",
+            "id": 2951652,
+            "modified": "2022-10-19T05:49:47.611899",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-10T17:18:13.949872"
+          },
+          {
+            "file_uri": null,
+            "public_url": "http://ps1images.stsci.edu/cgi-bin/fitscut.cgi?red=/rings.v3.skycell/1470/006/rings.v3.skycell.1470.006.stk.i.unconv.fits&blue=/rings.v3.skycell/1470/006/rings.v3.skycell.1470.006.stk.g.unconv.fits&green=/rings.v3.skycell/1470/006/rings.v3.skycell.1470.006.stk.r.unconv.fits&x=234.037263&y=4.312441&size=250&wcs=1&asinh=True&autoscale=99.750000",
+            "obj_id": "ZTF21abaevgu",
+            "id": 2972320,
+            "modified": "2021-05-11T11:17:56.443032",
+            "type": "ps1",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-11T11:17:56.443032"
+          }
+        ],
+        "classifications": [
+          {
+            "classification": "Ic",
+            "probability": 0.9,
+            "author_id": 30,
+            "obj_id": "ZTF21abaevgu",
+            "created_at": "2021-05-12T22:55:51.072365",
+            "origin": null,
+            "taxonomy_id": 3,
+            "ml": false,
+            "author_name": "noliver",
+            "id": 20309,
+            "modified": "2021-05-12T22:55:51.072365",
+            "groups": [],
+            "votes": []
+          },
+          {
+            "classification": "Ic",
+            "probability": 0.96787,
+            "author_id": 12,
+            "obj_id": "ZTF21abaevgu",
+            "created_at": "2021-05-18T06:23:31.834133",
+            "origin": null,
+            "taxonomy_id": 3,
+            "ml": false,
+            "author_name": "sedm-robot",
+            "id": 20374,
+            "modified": "2021-05-18T06:23:31.834133",
+            "groups": [],
+            "votes": []
+          },
+          {
+            "classification": "Ic",
+            "probability": 1.0,
+            "author_id": 1274,
+            "obj_id": "ZTF21abaevgu",
+            "created_at": "2022-11-23T23:30:42.097277",
+            "origin": null,
+            "taxonomy_id": 1011,
+            "ml": true,
+            "author_name": "cnorth",
+            "id": 461119,
+            "modified": "2022-11-23T23:30:42.097277",
+            "groups": [],
+            "votes": []
+          }
+        ],
+        "comments": [
+          {
+            "obj_id": "ZTF21abaevgu",
+            "modified": "2021-07-02T05:25:39.762301",
+            "attachment_name": "ZTF21abaevgu-T2CatalogMatch.json",
+            "origin": null,
+            "author_id": 20,
+            "id": 45688,
+            "created_at": "2021-05-11T08:36:57.827688",
+            "text": "T2CatalogMatch",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21abaevgu",
+            "modified": "2021-07-02T05:25:39.976894",
+            "attachment_name": "ZTF21abaevgu-T2LightCurveSummary.json",
+            "origin": null,
+            "author_id": 20,
+            "id": 45689,
+            "created_at": "2021-05-11T08:37:00.239460",
+            "text": "T2LightCurveSummary",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21abaevgu",
+            "modified": "2021-05-12T04:49:43.988070",
+            "attachment_name": "pysedm_report_auto_robot_lstep1__crr_b_ifu20210512_03_52_38_ZTF21abaevgu.png",
+            "origin": null,
+            "author_id": 12,
+            "id": 45815,
+            "created_at": "2021-05-12T04:49:43.988070",
+            "text": "pysedm_report:spc2572",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21abaevgu",
+            "modified": "2021-05-12T14:04:29.170558",
+            "attachment_name": "pysedm_report_auto_redo064952_lstep1__crr_b_ifu20210512_03_52_38_ZTF21abaevgu.png",
+            "origin": null,
+            "author_id": 12,
+            "id": 46250,
+            "created_at": "2021-05-12T14:04:29.170558",
+            "text": "pysedm_report:spc2581",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21abaevgu",
+            "modified": "2021-05-18T06:23:31.138023",
+            "attachment_name": "pysedm_report_auto_robot_lstep1__crr_b_ifu20210518_05_26_36_ZTF21abaevgu.png",
+            "origin": null,
+            "author_id": 12,
+            "id": 46888,
+            "created_at": "2021-05-18T06:23:31.138023",
+            "text": "pysedm_report:spc2681",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21abaevgu",
+            "modified": "2021-05-18T06:23:54.852161",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 12,
+            "id": 46889,
+            "created_at": "2021-05-18T06:23:54.852161",
+            "text": "Uploaded to TNS",
+            "bot": false
+          }
+        ]
+      },
+      {
+        "offset": 0.0,
+        "altdata": null,
+        "mpc_name": null,
+        "healpix": 3095320336903858576,
+        "redshift": 0.0954,
+        "dist_nearest_source": null,
+        "gcn_crossmatch": null,
+        "internal_key": "48189790-d4c6-4057-8496-04da74270946",
+        "redshift_error": null,
+        "mag_nearest_source": null,
+        "tns_name": "SN 2021lny",
+        "detect_photometry_count": null,
+        "ra_dis": null,
+        "redshift_origin": null,
+        "e_mag_nearest_source": null,
+        "tns_info": {
+          "ra": "13:41:03.951",
+          "dec": "-25:36:09.33",
+          "objid": 83183,
+          "radeg": 205.26646278,
+          "decdeg": -25.60259172,
+          "public": 1,
+          "source": "bot",
+          "objname": "2021lny",
+          "spectra": [
+            {
+              "jd": 2459353.8749769,
+              "public": 1,
+              "exptime": 3600,
+              "obsdate": "2021-05-19 08:59:58",
+              "reducer": "Daichi Hiramatsu",
+              "remarks": "",
+              "fitsfile": "https://www.wis-tns.org/system/files/uploaded/Global%20SN%20Project/tns_2021lny_2021-05-19_08-59-58_FTS_FLOYDS-S_Global_SN_Project.fits",
+              "observer": "Las Cumbres Observatory",
+              "asciifile": "https://www.wis-tns.org/system/files/uploaded/Global%20SN%20Project/tns_2021lny_2021-05-19_08-59-58_FTS_FLOYDS-S_Global_SN_Project.ascii",
+              "telescope": {
+                "id": 75,
+                "name": "FTS"
+              },
+              "instrument": {
+                "id": 125,
+                "name": "FLOYDS-S"
+              },
+              "assoc_groups": [
+                {
+                  "id": 38,
+                  "name": "Global SN Project"
+                }
+              ],
+              "source_group": {
+                "id": 38,
+                "name": "Global SN Project"
+              },
+              "end_prop_period": null
+            }
+          ],
+          "hostname": "WISEA J134103.94-253608.4",
+          "redshift": 0.0954,
+          "reporter": "ALeRCE",
+          "radeg_err": null,
+          "decdeg_err": null,
+          "discoverer": "A. Munoz-Arancibia, F. Forster, F.E. Bauer, G. Pignata, L. Hernandez-Garcia, L. Galbany, E. Camacho, J. Silva-Farfan, A. Mourao, J. Arredondo, G. Cabrera-Vives, R. Carrasco-Davis, P.A. Estevez, P. Huijse, E. Reyes, I. Reyes, P. Sanchez-Saez, C. Valenzuela, E. Castillo, D. Ruz-Mieres, D. Rodriguez-Mancini, M. Catelan, S. Eyheramendy, M.J. Graham on behalf of the ALeRCE broker",
+          "photometry": [
+            {
+              "jd": 2459349.857,
+              "flux": 18.829,
+              "exptime": 30,
+              "filters": {
+                "id": 71,
+                "name": "cyan"
+              },
+              "fluxerr": 0.124,
+              "limflux": 19.46,
+              "obsdate": "2021-05-15 08:34:05",
+              "remarks": "",
+              "observer": "Robot",
+              "flux_unit": {
+                "id": 1,
+                "name": "ABMag"
+              },
+              "telescope": {
+                "id": 103,
+                "name": "ATLAS-HKO"
+              },
+              "instrument": {
+                "id": 159,
+                "name": "ATLAS-02"
+              }
+            },
+            {
+              "jd": 2459343.968,
+              "flux": "",
+              "exptime": 30,
+              "filters": {
+                "id": 72,
+                "name": "orange"
+              },
+              "fluxerr": "",
+              "limflux": 19.37,
+              "obsdate": "2021-05-09 11:13:55",
+              "remarks": "[Last non detection] ",
+              "observer": "Robot",
+              "flux_unit": {
+                "id": 1,
+                "name": "ABMag"
+              },
+              "telescope": {
+                "id": 104,
+                "name": "ATLAS-MLO"
+              },
+              "instrument": {
+                "id": 160,
+                "name": "ATLAS-01"
+              }
+            },
+            {
+              "jd": 2459341.7944097,
+              "flux": 19.9211,
+              "exptime": 30,
+              "filters": {
+                "id": 110,
+                "name": "g"
+              },
+              "fluxerr": 0.197222,
+              "limflux": 20.2398,
+              "obsdate": "2021-05-07 07:03:57",
+              "remarks": "Data provided by ZTF",
+              "observer": "Robot",
+              "flux_unit": {
+                "id": 1,
+                "name": "ABMag"
+              },
+              "telescope": {
+                "id": 1,
+                "name": "P48"
+              },
+              "instrument": {
+                "id": 196,
+                "name": "ZTF-Cam"
+              }
+            },
+            {
+              "jd": 2459341.7504514,
+              "flux": 20.1266,
+              "exptime": 30,
+              "filters": {
+                "id": 111,
+                "name": "r"
+              },
+              "fluxerr": 0.267328,
+              "limflux": 20.0282,
+              "obsdate": "2021-05-07 06:00:39",
+              "remarks": "Data provided by ZTF",
+              "observer": "Robot",
+              "flux_unit": {
+                "id": 1,
+                "name": "ABMag"
+              },
+              "telescope": {
+                "id": 1,
+                "name": "P48"
+              },
+              "instrument": {
+                "id": 196,
+                "name": "ZTF-Cam"
+              }
+            },
+            {
+              "jd": 2459341.7504514,
+              "flux": 20.1266,
+              "exptime": 30,
+              "filters": {
+                "id": 111,
+                "name": "r"
+              },
+              "fluxerr": 0.267328,
+              "limflux": 20.0282,
+              "obsdate": "2021-05-07 06:00:39",
+              "remarks": "Data provided by ZTF, classified by Fink",
+              "observer": "Robot",
+              "flux_unit": {
+                "id": 1,
+                "name": "ABMag"
+              },
+              "telescope": {
+                "id": 1,
+                "name": "P48"
+              },
+              "instrument": {
+                "id": 196,
+                "name": "ZTF-Cam"
+              }
+            },
+            {
+              "jd": 2459339.793044,
+              "flux": "",
+              "exptime": 30,
+              "filters": {
+                "id": 111,
+                "name": "r"
+              },
+              "fluxerr": "",
+              "limflux": 20.0955,
+              "obsdate": "2021-05-05 07:01:59",
+              "remarks": "[Last non detection] Data provided by ZTF",
+              "observer": "Robot",
+              "flux_unit": {
+                "id": 1,
+                "name": "ABMag"
+              },
+              "telescope": {
+                "id": 1,
+                "name": "P48"
+              },
+              "instrument": {
+                "id": 196,
+                "name": "ZTF-Cam"
+              }
+            },
+            {
+              "jd": 2459339.793044,
+              "flux": "",
+              "exptime": 30,
+              "filters": {
+                "id": 111,
+                "name": "r"
+              },
+              "fluxerr": "",
+              "limflux": 20.0955,
+              "obsdate": "2021-05-05 07:01:59",
+              "remarks": "[Last non detection] Data provided by ZTF, classified by Fink",
+              "observer": "Robot",
+              "flux_unit": {
+                "id": 1,
+                "name": "ABMag"
+              },
+              "telescope": {
+                "id": 1,
+                "name": "P48"
+              },
+              "instrument": {
+                "id": 196,
+                "name": "ZTF-Cam"
+              }
+            }
+          ],
+          "reporterid": 66140,
+          "name_prefix": "SN",
+          "object_type": {
+            "id": 3,
+            "name": "SN Ia"
+          },
+          "discoverymag": 20.1266,
+          "discmagfilter": {
+            "id": 111,
+            "name": "r",
+            "family": "ZTF"
+          },
+          "discoverydate": "2021-05-07 06:00:39.001",
+          "host_redshift": null,
+          "internal_names": "ZTF21aazqtor, ATLAS21oyt",
+          "end_prop_period": null,
+          "reporting_group": {
+            "groupid": 74,
+            "group_name": "ALeRCE"
+          },
+          "discovery_data_source": {
+            "groupid": 48,
+            "group_name": "ZTF"
+          },
+          "discoverer_internal_name": "ZTF21aazqtor"
+        },
+        "created_at": "2021-05-07T07:15:50.487741",
+        "id": "ZTF21aazqtor",
+        "redshift_history": [
+          {
+            "value": "0.08",
+            "set_at_utc": "2021-05-19T23:31:03.976960",
+            "set_by_user_id": 30
+          }
+        ],
+        "transient": false,
+        "score": 0.9984081983566284,
+        "modified": "2024-06-24T12:09:16.424778",
+        "dec_dis": null,
+        "host_id": null,
+        "varstar": false,
+        "ra": 205.266477,
+        "dec": -25.6025402,
+        "ra_err": null,
+        "summary": null,
+        "is_roid": false,
+        "origin": "Kowalski",
+        "dec_err": null,
+        "summary_history": null,
+        "alias": null,
+        "groups": [
+          {
+            "nickname": "rcf",
+            "name": "Redshift Completeness Factor",
+            "description": null,
+            "private": false,
+            "single_user_group": false,
+            "id": 41,
+            "created_at": "2020-10-21T06:20:34.429576",
+            "modified": "2020-10-21T06:20:34.429576",
+            "active": true,
+            "requested": false,
+            "saved_at": "2021-05-16T16:16:22.568851",
+            "saved_by": {
+              "username": "jdoe",
+              "first_name": "John",
+              "last_name": "Doe",
+              "bio": null,
+              "affiliations": [
+                "Caltech"
+              ],
+              "is_bot": false,
+              "expiration_date": null,
+              "id": 17,
+              "created_at": "2020-10-21T06:20:33.922182",
+              "modified": "2024-03-26T16:54:31.449418"
+            }
+          }
+        ],
+        "host": null,
+        "host_offset": null,
+        "gal_lon": -43.22337601400062,
+        "gal_lat": 35.93144711668349,
+        "luminosity_distance": 452.5490159701079,
+        "dm": 38.27832812447379,
+        "angular_diameter_distance": 377.15524499543614,
+        "thumbnails": [
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=205.2665316&dec=-25.6025792&size=200&layer=dr8&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21aazqtor",
+            "id": 2880814,
+            "modified": "2021-05-07T07:15:50.539806",
+            "type": "dr8",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-07T07:15:50.539806"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://skyserver.sdss.org/dr18/SkyServerWS/ImgCutout/getjpeg?TaskName=SkyServer.Chart.List&ra=205.2665316&dec=-25.6025792&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+            "obj_id": "ZTF21aazqtor",
+            "id": 2880813,
+            "modified": "2021-05-07T07:15:50.539806",
+            "type": "sdss",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-07T07:15:50.539806"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/c4/ff/ZTF21aazqtor_new.png",
+            "public_url": "/static/thumbnails/c4/ff/ZTF21aazqtor_new.png",
+            "obj_id": "ZTF21aazqtor",
+            "id": 2880815,
+            "modified": "2022-10-19T03:23:04.577113",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-07T07:15:51.239363"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/c4/ff/ZTF21aazqtor_ref.png",
+            "public_url": "/static/thumbnails/c4/ff/ZTF21aazqtor_ref.png",
+            "obj_id": "ZTF21aazqtor",
+            "id": 2880816,
+            "modified": "2022-10-19T03:21:37.940064",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-07T07:15:51.365396"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/c4/ff/ZTF21aazqtor_sub.png",
+            "public_url": "/static/thumbnails/c4/ff/ZTF21aazqtor_sub.png",
+            "obj_id": "ZTF21aazqtor",
+            "id": 2880817,
+            "modified": "2022-10-19T03:21:41.969706",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-07T07:15:51.500877"
+          },
+          {
+            "file_uri": null,
+            "public_url": "http://ps1images.stsci.edu/cgi-bin/fitscut.cgi?red=/rings.v3.skycell/0761/057/rings.v3.skycell.0761.057.stk.i.unconv.fits&blue=/rings.v3.skycell/0761/057/rings.v3.skycell.0761.057.stk.g.unconv.fits&green=/rings.v3.skycell/0761/057/rings.v3.skycell.0761.057.stk.r.unconv.fits&x=205.266397&y=-25.602619&size=250&wcs=1&asinh=True&autoscale=99.750000",
+            "obj_id": "ZTF21aazqtor",
+            "id": 2973386,
+            "modified": "2021-05-11T12:09:20.014063",
+            "type": "ps1",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-11T12:09:20.014063"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/c4/ff/ZTF21aazqtor_new.png",
+            "public_url": "/static/thumbnails/c4/ff/ZTF21aazqtor_new.png",
+            "obj_id": "ZTF21aazqtor",
+            "id": 19622665,
+            "modified": "2024-08-22T19:38:45.406212",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T19:38:45.406212"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/c4/ff/ZTF21aazqtor_ref.png",
+            "public_url": "/static/thumbnails/c4/ff/ZTF21aazqtor_ref.png",
+            "obj_id": "ZTF21aazqtor",
+            "id": 19622666,
+            "modified": "2024-08-22T19:38:45.728434",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T19:38:45.728434"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/c4/ff/ZTF21aazqtor_sub.png",
+            "public_url": "/static/thumbnails/c4/ff/ZTF21aazqtor_sub.png",
+            "obj_id": "ZTF21aazqtor",
+            "id": 19622667,
+            "modified": "2024-08-22T19:38:45.969875",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T19:38:45.969875"
+          }
+        ],
+        "classifications": [
+          {
+            "classification": "IIb",
+            "probability": 1.0,
+            "author_id": 30,
+            "obj_id": "ZTF21aazqtor",
+            "created_at": "2021-05-19T23:31:15.536438",
+            "origin": null,
+            "taxonomy_id": 3,
+            "ml": false,
+            "author_name": "noliver",
+            "id": 20414,
+            "modified": "2021-05-19T23:31:15.536438",
+            "groups": [],
+            "votes": []
+          },
+          {
+            "classification": "IIb",
+            "probability": 1.0,
+            "author_id": 1274,
+            "obj_id": "ZTF21aazqtor",
+            "created_at": "2022-11-23T23:30:18.370511",
+            "origin": null,
+            "taxonomy_id": 1011,
+            "ml": true,
+            "author_name": "cnorth",
+            "id": 461110,
+            "modified": "2022-11-23T23:30:18.370511",
+            "groups": [],
+            "votes": []
+          }
+        ],
+        "comments": [
+          {
+            "obj_id": "ZTF21aazqtor",
+            "modified": "2021-05-19T23:30:46.939331",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 30,
+            "id": 47183,
+            "created_at": "2021-05-19T23:30:46.939331",
+            "text": "TNS SN Ia\t0.0954\t\tGlobal SN Project\t\tUsing Superfit (Howell et al. 2005, ApJ, 634, 1190), we find some reasonable fits to several normal Type Ia SNe around maximum. A redshift of 0.0954 is estimated from the narrow host galaxy lines.",
+            "bot": false
+          }
+        ]
+      },
+      {
+        "offset": 0.0,
+        "altdata": null,
+        "mpc_name": null,
+        "healpix": 701081503689699554,
+        "redshift": 0.07,
+        "dist_nearest_source": null,
+        "gcn_crossmatch": null,
+        "internal_key": "79be7e19-f5b9-45e9-89f0-a52a8b6bdcc6",
+        "redshift_error": null,
+        "mag_nearest_source": null,
+        "tns_name": "2021lin",
+        "detect_photometry_count": null,
+        "ra_dis": null,
+        "redshift_origin": null,
+        "e_mag_nearest_source": null,
+        "tns_info": null,
+        "created_at": "2021-05-05T09:02:35.457779",
+        "id": "ZTF21aazebgh",
+        "redshift_history": [
+          {
+            "value": 0.046,
+            "set_at_utc": "2021-05-19T06:53:50.247813",
+            "set_by_user_id": 12
+          },
+          {
+            "value": "0.04",
+            "set_at_utc": "2021-05-19T07:16:29.338615",
+            "set_by_user_id": 30
+          }
+        ],
+        "transient": false,
+        "score": 0.980009913444519,
+        "modified": "2023-06-16T21:52:07.422529",
+        "dec_dis": null,
+        "host_id": null,
+        "varstar": false,
+        "ra": 232.4084627,
+        "dec": 48.7768795,
+        "ra_err": null,
+        "summary": null,
+        "is_roid": false,
+        "origin": "Kowalski",
+        "dec_err": null,
+        "summary_history": null,
+        "alias": null,
+        "groups": [
+          {
+            "nickname": "rcf",
+            "name": "Redshift Completeness Factor",
+            "description": null,
+            "private": false,
+            "single_user_group": false,
+            "id": 41,
+            "created_at": "2020-10-21T06:20:34.429576",
+            "modified": "2020-10-21T06:20:34.429576",
+            "active": true,
+            "requested": false,
+            "saved_at": "2021-05-16T16:16:05.270308",
+            "saved_by": {
+              "username": "jdoe",
+              "first_name": "John",
+              "last_name": "Doe",
+              "bio": null,
+              "affiliations": [
+                "Caltech"
+              ],
+              "is_bot": false,
+              "expiration_date": null,
+              "id": 17,
+              "created_at": "2020-10-21T06:20:33.922182",
+              "modified": "2024-03-26T16:54:31.449418"
+            }
+          }
+        ],
+        "host": null,
+        "host_offset": null,
+        "gal_lon": 79.14113044594315,
+        "gal_lat": 52.67446898100524,
+        "luminosity_distance": 326.3811581477977,
+        "dm": 37.56862539580382,
+        "angular_diameter_distance": 285.07394370495035,
+        "thumbnails": [
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=232.4084741&dec=48.776911&size=200&layer=dr8&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21aazebgh",
+            "id": 2850615,
+            "modified": "2021-05-05T09:02:35.549712",
+            "type": "dr8",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-05T09:02:35.549712"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://skyserver.sdss.org/dr18/SkyServerWS/ImgCutout/getjpeg?TaskName=SkyServer.Chart.List&ra=232.4084741&dec=48.776911&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+            "obj_id": "ZTF21aazebgh",
+            "id": 2850614,
+            "modified": "2021-05-05T09:02:35.549712",
+            "type": "sdss",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-05T09:02:35.549712"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/9a/43/ZTF21aazebgh_new.png",
+            "public_url": "/static/thumbnails/9a/43/ZTF21aazebgh_new.png",
+            "obj_id": "ZTF21aazebgh",
+            "id": 2850616,
+            "modified": "2022-10-19T02:22:17.593402",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-05T09:02:38.240994"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/9a/43/ZTF21aazebgh_ref.png",
+            "public_url": "/static/thumbnails/9a/43/ZTF21aazebgh_ref.png",
+            "obj_id": "ZTF21aazebgh",
+            "id": 2850617,
+            "modified": "2022-10-19T02:22:24.334973",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-05T09:02:38.356959"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/9a/43/ZTF21aazebgh_sub.png",
+            "public_url": "/static/thumbnails/9a/43/ZTF21aazebgh_sub.png",
+            "obj_id": "ZTF21aazebgh",
+            "id": 2850618,
+            "modified": "2022-10-19T02:22:12.309003",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-05T09:02:38.489181"
+          },
+          {
+            "file_uri": null,
+            "public_url": "http://ps1images.stsci.edu/cgi-bin/fitscut.cgi?red=/rings.v3.skycell/2328/017/rings.v3.skycell.2328.017.stk.i.unconv.fits&blue=/rings.v3.skycell/2328/017/rings.v3.skycell.2328.017.stk.g.unconv.fits&green=/rings.v3.skycell/2328/017/rings.v3.skycell.2328.017.stk.r.unconv.fits&x=232.408474&y=48.776911&size=250&wcs=1&asinh=True&autoscale=99.750000",
+            "obj_id": "ZTF21aazebgh",
+            "id": 2873095,
+            "modified": "2021-05-06T12:34:26.087000",
+            "type": "ps1",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-06T12:34:26.087000"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=232.4084627&dec=48.7768795&size=200&layer=ls-dr9&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21aazebgh",
+            "id": 15277848,
+            "modified": "2023-11-02T17:18:35.574788",
+            "type": "ls",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2023-11-02T17:18:35.574788"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/9a/43/ZTF21aazebgh_new.png",
+            "public_url": "/static/thumbnails/9a/43/ZTF21aazebgh_new.png",
+            "obj_id": "ZTF21aazebgh",
+            "id": 19622668,
+            "modified": "2024-08-22T19:38:49.327311",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T19:38:49.327311"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/9a/43/ZTF21aazebgh_ref.png",
+            "public_url": "/static/thumbnails/9a/43/ZTF21aazebgh_ref.png",
+            "obj_id": "ZTF21aazebgh",
+            "id": 19622669,
+            "modified": "2024-08-22T19:38:50.495041",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2024-08-22T19:38:50.495041"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/9a/43/ZTF21aazebgh_sub.png",
+            "public_url": "/static/thumbnails/9a/43/ZTF21aazebgh_sub.png",
+            "obj_id": "ZTF21aazebgh",
+            "id": 19622670,
+            "modified": "2024-08-22T19:38:50.657016",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T19:38:50.657016"
+          }
+        ],
+        "classifications": [
+          {
+            "classification": "Ibn",
+            "probability": 0.92407,
+            "author_id": 12,
+            "obj_id": "ZTF21aazebgh",
+            "created_at": "2021-05-19T06:53:49.705927",
+            "origin": null,
+            "taxonomy_id": 3,
+            "ml": false,
+            "author_name": "sedm-robot",
+            "id": 20406,
+            "modified": "2021-05-19T06:53:49.705927",
+            "groups": [],
+            "votes": []
+          },
+          {
+            "classification": "Ibn",
+            "probability": 0.94804,
+            "author_id": 12,
+            "obj_id": "ZTF21aazebgh",
+            "created_at": "2021-05-19T17:02:23.661451",
+            "origin": null,
+            "taxonomy_id": 3,
+            "ml": false,
+            "author_name": "sedm-robot",
+            "id": 20411,
+            "modified": "2021-05-19T17:02:23.661451",
+            "groups": [],
+            "votes": []
+          },
+          {
+            "classification": "Ibn",
+            "probability": 1.0,
+            "author_id": 1274,
+            "obj_id": "ZTF21aazebgh",
+            "created_at": "2022-11-23T23:29:56.465611",
+            "origin": null,
+            "taxonomy_id": 1011,
+            "ml": true,
+            "author_name": "cnorth",
+            "id": 461100,
+            "modified": "2022-11-23T23:29:56.465611",
+            "groups": [],
+            "votes": []
+          }
+        ],
+        "comments": [
+          {
+            "obj_id": "ZTF21aazebgh",
+            "modified": "2021-06-11T07:32:20.704941",
+            "attachment_name": "ZTF21aazebgh-T2CatalogMatch.json",
+            "origin": null,
+            "author_id": 20,
+            "id": 44271,
+            "created_at": "2021-05-07T07:10:24.396620",
+            "text": "T2CatalogMatch",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21aazebgh",
+            "modified": "2021-06-11T07:32:20.910666",
+            "attachment_name": "ZTF21aazebgh-T2LightCurveSummary.json",
+            "origin": null,
+            "author_id": 20,
+            "id": 44272,
+            "created_at": "2021-05-07T07:10:24.629975",
+            "text": "T2LightCurveSummary",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21aazebgh",
+            "modified": "2021-05-19T06:53:49.611862",
+            "attachment_name": "pysedm_report_auto_robot_lstep1__crr_b_ifu20210519_05_55_57_ZTF21aazebgh.png",
+            "origin": null,
+            "author_id": 12,
+            "id": 47020,
+            "created_at": "2021-05-19T06:53:49.611862",
+            "text": "pysedm_report:spc2691",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21aazebgh",
+            "modified": "2021-05-19T06:53:58.932707",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 12,
+            "id": 47021,
+            "created_at": "2021-05-19T06:53:58.932707",
+            "text": "Uploaded to TNS",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21aazebgh",
+            "modified": "2021-05-19T07:16:12.608920",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 30,
+            "id": 47029,
+            "created_at": "2021-05-19T07:16:12.608920",
+            "text": "Galaxy group at z=0.071 and Halpha at z~0.068",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21aazebgh",
+            "modified": "2021-05-19T17:02:23.500562",
+            "attachment_name": "pysedm_report_auto_contsep_lstep1__crr_b_ifu20210519_05_55_57_ZTF21aazebgh.png",
+            "origin": null,
+            "author_id": 12,
+            "id": 47167,
+            "created_at": "2021-05-19T17:02:23.500562",
+            "text": "pysedm_report:spc2703",
+            "bot": true
+          }
+        ]
+      },
+      {
+        "offset": 0.0,
+        "altdata": null,
+        "mpc_name": null,
+        "healpix": 657856896414709898,
+        "redshift": 0.1,
+        "dist_nearest_source": null,
+        "gcn_crossmatch": null,
+        "internal_key": "bc63d210-fe82-4b72-9007-a694da41023d",
+        "redshift_error": null,
+        "mag_nearest_source": null,
+        "tns_name": "2021luu",
+        "detect_photometry_count": null,
+        "ra_dis": null,
+        "redshift_origin": null,
+        "e_mag_nearest_source": null,
+        "tns_info": null,
+        "created_at": "2021-05-05T07:54:09.256684",
+        "id": "ZTF21aazcjbh",
+        "redshift_history": [
+          {
+            "value": "0.2",
+            "set_at_utc": "2021-06-08T16:33:14.638117",
+            "uncertainty": null,
+            "set_by_user_id": 30
+          }
+        ],
+        "transient": false,
+        "score": 0.5784544944763184,
+        "modified": "2023-06-16T21:52:15.556824",
+        "dec_dis": null,
+        "host_id": null,
+        "varstar": false,
+        "ra": 243.0822265,
+        "dec": 26.7834841,
+        "ra_err": null,
+        "summary": null,
+        "is_roid": false,
+        "origin": "Kowalski",
+        "dec_err": null,
+        "summary_history": null,
+        "alias": null,
+        "groups": [
+          {
+            "nickname": "rcf",
+            "name": "Redshift Completeness Factor",
+            "description": null,
+            "private": false,
+            "single_user_group": false,
+            "id": 41,
+            "created_at": "2020-10-21T06:20:34.429576",
+            "modified": "2020-10-21T06:20:34.429576",
+            "active": true,
+            "requested": false,
+            "saved_at": "2021-05-16T16:15:58.084195",
+            "saved_by": {
+              "username": "jdoe",
+              "first_name": "John",
+              "last_name": "Doe",
+              "bio": null,
+              "affiliations": [
+                "Caltech"
+              ],
+              "is_bot": false,
+              "expiration_date": null,
+              "id": 17,
+              "created_at": "2020-10-21T06:20:33.922182",
+              "modified": "2024-03-26T16:54:31.449418"
+            }
+          }
+        ],
+        "host": null,
+        "host_offset": null,
+        "gal_lon": 44.513654312216275,
+        "gal_lat": 45.545300841294136,
+        "luminosity_distance": 475.8222675121877,
+        "dm": 38.38722381136649,
+        "angular_diameter_distance": 393.2415433985022,
+        "thumbnails": [
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=243.0821959&dec=26.7835262&size=200&layer=dr8&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21aazcjbh",
+            "id": 2845981,
+            "modified": "2021-05-05T07:54:09.299777",
+            "type": "dr8",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-05T07:54:09.299777"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://skyserver.sdss.org/dr18/SkyServerWS/ImgCutout/getjpeg?TaskName=SkyServer.Chart.List&ra=243.0821959&dec=26.7835262&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+            "obj_id": "ZTF21aazcjbh",
+            "id": 2845980,
+            "modified": "2021-05-05T07:54:09.299777",
+            "type": "sdss",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-05T07:54:09.299777"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/f5/91/ZTF21aazcjbh_new.png",
+            "public_url": "/static/thumbnails/f5/91/ZTF21aazcjbh_new.png",
+            "obj_id": "ZTF21aazcjbh",
+            "id": 2845982,
+            "modified": "2022-10-19T02:13:12.030704",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-05T07:54:10.935794"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/f5/91/ZTF21aazcjbh_ref.png",
+            "public_url": "/static/thumbnails/f5/91/ZTF21aazcjbh_ref.png",
+            "obj_id": "ZTF21aazcjbh",
+            "id": 2845983,
+            "modified": "2022-10-19T02:12:48.268091",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-05T07:54:11.066473"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/f5/91/ZTF21aazcjbh_sub.png",
+            "public_url": "/static/thumbnails/f5/91/ZTF21aazcjbh_sub.png",
+            "obj_id": "ZTF21aazcjbh",
+            "id": 2845984,
+            "modified": "2022-10-19T02:13:15.958504",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-05T07:54:11.191590"
+          },
+          {
+            "file_uri": null,
+            "public_url": "http://ps1images.stsci.edu/cgi-bin/fitscut.cgi?red=/rings.v3.skycell/1903/061/rings.v3.skycell.1903.061.stk.i.unconv.fits&blue=/rings.v3.skycell/1903/061/rings.v3.skycell.1903.061.stk.g.unconv.fits&green=/rings.v3.skycell/1903/061/rings.v3.skycell.1903.061.stk.r.unconv.fits&x=243.082237&y=26.783463&size=250&wcs=1&asinh=True&autoscale=99.750000",
+            "obj_id": "ZTF21aazcjbh",
+            "id": 3049867,
+            "modified": "2021-05-16T16:15:05.703744",
+            "type": "ps1",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-16T16:15:05.703744"
+          }
+        ],
+        "classifications": [
+          {
+            "classification": "II",
+            "probability": 1.0,
+            "author_id": 30,
+            "obj_id": "ZTF21aazcjbh",
+            "created_at": "2021-06-08T16:31:50.934994",
+            "origin": null,
+            "taxonomy_id": 3,
+            "ml": false,
+            "author_name": "noliver",
+            "id": 20647,
+            "modified": "2021-06-08T16:31:50.934994",
+            "groups": [],
+            "votes": []
+          },
+          {
+            "classification": "Type II",
+            "probability": 1.0,
+            "author_id": 1274,
+            "obj_id": "ZTF21aazcjbh",
+            "created_at": "2022-11-23T23:29:55.831072",
+            "origin": null,
+            "taxonomy_id": 1011,
+            "ml": true,
+            "author_name": "cnorth",
+            "id": 461098,
+            "modified": "2022-11-23T23:29:55.831072",
+            "groups": [],
+            "votes": []
+          }
+        ],
+        "comments": [
+          {
+            "obj_id": "ZTF21aazcjbh",
+            "modified": "2021-07-01T08:07:37.285245",
+            "attachment_name": "ZTF21aazcjbh-T2CatalogMatch.json",
+            "origin": null,
+            "author_id": 20,
+            "id": 44111,
+            "created_at": "2021-05-06T10:49:37.708084",
+            "text": "T2CatalogMatch",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21aazcjbh",
+            "modified": "2021-07-01T08:07:37.495377",
+            "attachment_name": "ZTF21aazcjbh-T2LightCurveSummary.json",
+            "origin": null,
+            "author_id": 20,
+            "id": 44112,
+            "created_at": "2021-05-06T10:49:37.923476",
+            "text": "T2LightCurveSummary",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21aazcjbh",
+            "modified": "2021-05-19T07:40:07.454143",
+            "attachment_name": "pysedm_report_auto_robot_lstep1__crr_b_ifu20210519_06_42_48_ZTF21aazcjbh.png",
+            "origin": null,
+            "author_id": 12,
+            "id": 47035,
+            "created_at": "2021-05-19T07:40:07.454143",
+            "text": "pysedm_report:spc2692",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21aazcjbh",
+            "modified": "2021-06-08T16:32:49.627419",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 30,
+            "id": 52288,
+            "created_at": "2021-06-08T16:32:49.627419",
+            "text": "TNS SN Ia\t0.1\t\tYSE\t\tSpectrum taken with NOT/ALFOSC in gr4 on 06/06/2021. Template matches to SN Ia around +20 days. Redshift ",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21aazcjbh",
+            "modified": "2021-06-08T17:32:51.692543",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 23,
+            "id": 52291,
+            "created_at": "2021-06-08T17:32:51.692543",
+            "text": "mag 19 at peak, I do wonder what the YSE selection criteria are.",
+            "bot": false
+          }
+        ]
+      },
+      {
+        "offset": 0.0,
+        "altdata": null,
+        "mpc_name": null,
+        "healpix": 856060339685683039,
+        "redshift": 0.09,
+        "dist_nearest_source": null,
+        "gcn_crossmatch": null,
+        "internal_key": "a12a44d0-0315-4625-94fc-4f6ae223a763",
+        "redshift_error": null,
+        "mag_nearest_source": null,
+        "tns_name": "2021lea",
+        "detect_photometry_count": null,
+        "ra_dis": null,
+        "redshift_origin": null,
+        "e_mag_nearest_source": null,
+        "tns_info": null,
+        "created_at": "2021-05-04T09:32:24.357564",
+        "id": "ZTF21aayrbnn",
+        "redshift_history": [
+          {
+            "value": "0.08",
+            "set_at_utc": "2021-05-13T15:09:57.169823",
+            "set_by_user_id": 39
+          }
+        ],
+        "transient": false,
+        "score": 0.999010443687439,
+        "modified": "2023-06-16T21:52:08.638996",
+        "dec_dis": null,
+        "host_id": null,
+        "varstar": false,
+        "ra": 215.3962163,
+        "dec": 75.349274,
+        "ra_err": null,
+        "summary": null,
+        "is_roid": false,
+        "origin": "Kowalski",
+        "dec_err": null,
+        "summary_history": null,
+        "alias": null,
+        "groups": [
+          {
+            "nickname": "rcf",
+            "name": "Redshift Completeness Factor",
+            "description": null,
+            "private": false,
+            "single_user_group": false,
+            "id": 41,
+            "created_at": "2020-10-21T06:20:34.429576",
+            "modified": "2020-10-21T06:20:34.429576",
+            "active": true,
+            "requested": false,
+            "saved_at": "2021-05-16T16:15:38.037964",
+            "saved_by": {
+              "username": "jdoe",
+              "first_name": "John",
+              "last_name": "Doe",
+              "bio": null,
+              "affiliations": [
+                "Caltech"
+              ],
+              "is_bot": false,
+              "expiration_date": null,
+              "id": 17,
+              "created_at": "2020-10-21T06:20:33.922182",
+              "modified": "2024-03-26T16:54:31.449418"
+            }
+          }
+        ],
+        "host": null,
+        "host_offset": null,
+        "gal_lon": 115.61076552920166,
+        "gal_lat": 40.471431731060704,
+        "luminosity_distance": 425.3928421607117,
+        "dm": 38.143950890030794,
+        "angular_diameter_distance": 358.04464452547063,
+        "thumbnails": [
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=215.3964221&dec=75.3492513&size=200&layer=dr8&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21aayrbnn",
+            "id": 2824106,
+            "modified": "2021-05-04T09:32:24.462822",
+            "type": "dr8",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-04T09:32:24.462822"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://skyserver.sdss.org/dr18/SkyServerWS/ImgCutout/getjpeg?TaskName=SkyServer.Chart.List&ra=215.3964221&dec=75.3492513&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+            "obj_id": "ZTF21aayrbnn",
+            "id": 2824105,
+            "modified": "2021-05-04T09:32:24.462822",
+            "type": "sdss",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-04T09:32:24.462822"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/6f/e0/ZTF21aayrbnn_new.png",
+            "public_url": "/static/thumbnails/6f/e0/ZTF21aayrbnn_new.png",
+            "obj_id": "ZTF21aayrbnn",
+            "id": 2824108,
+            "modified": "2022-10-19T01:30:18.329920",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-04T09:32:26.421689"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/6f/e0/ZTF21aayrbnn_ref.png",
+            "public_url": "/static/thumbnails/6f/e0/ZTF21aayrbnn_ref.png",
+            "obj_id": "ZTF21aayrbnn",
+            "id": 2824109,
+            "modified": "2022-10-19T01:29:59.943386",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-04T09:32:26.558155"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/6f/e0/ZTF21aayrbnn_sub.png",
+            "public_url": "/static/thumbnails/6f/e0/ZTF21aayrbnn_sub.png",
+            "obj_id": "ZTF21aayrbnn",
+            "id": 2824110,
+            "modified": "2022-10-19T01:30:28.263516",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-04T09:32:26.694997"
+          },
+          {
+            "file_uri": null,
+            "public_url": "http://ps1images.stsci.edu/cgi-bin/fitscut.cgi?red=/rings.v3.skycell/2587/083/rings.v3.skycell.2587.083.stk.i.unconv.fits&blue=/rings.v3.skycell/2587/083/rings.v3.skycell.2587.083.stk.g.unconv.fits&green=/rings.v3.skycell/2587/083/rings.v3.skycell.2587.083.stk.r.unconv.fits&x=215.396526&y=75.349231&size=250&wcs=1&asinh=True&autoscale=99.750000",
+            "obj_id": "ZTF21aayrbnn",
+            "id": 2825801,
+            "modified": "2021-05-04T12:37:00.879867",
+            "type": "ps1",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-04T12:37:00.879867"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/6f/e0/ZTF21aayrbnn_new.png",
+            "public_url": "/static/thumbnails/6f/e0/ZTF21aayrbnn_new.png",
+            "obj_id": "ZTF21aayrbnn",
+            "id": 19622671,
+            "modified": "2024-08-22T19:38:53.977501",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T19:38:53.977501"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/6f/e0/ZTF21aayrbnn_ref.png",
+            "public_url": "/static/thumbnails/6f/e0/ZTF21aayrbnn_ref.png",
+            "obj_id": "ZTF21aayrbnn",
+            "id": 19622672,
+            "modified": "2024-08-22T19:38:55.242255",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T19:38:55.242255"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/6f/e0/ZTF21aayrbnn_sub.png",
+            "public_url": "/static/thumbnails/6f/e0/ZTF21aayrbnn_sub.png",
+            "obj_id": "ZTF21aayrbnn",
+            "id": 19622673,
+            "modified": "2024-08-22T19:38:55.403713",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T19:38:55.403713"
+          }
+        ],
+        "classifications": [
+          {
+            "classification": "Ia",
+            "probability": 1.0,
+            "author_id": 39,
+            "obj_id": "ZTF21aayrbnn",
+            "created_at": "2021-05-13T15:09:01.867688",
+            "origin": null,
+            "taxonomy_id": 3,
+            "ml": false,
+            "author_name": "rpaige",
+            "id": 20318,
+            "modified": "2021-05-13T15:09:01.867688",
+            "groups": [],
+            "votes": []
+          },
+          {
+            "classification": "Ia",
+            "probability": 1.0,
+            "author_id": 1274,
+            "obj_id": "ZTF21aayrbnn",
+            "created_at": "2022-11-23T23:29:38.843511",
+            "origin": null,
+            "taxonomy_id": 1011,
+            "ml": true,
+            "author_name": "cnorth",
+            "id": 461093,
+            "modified": "2022-11-23T23:29:38.843511",
+            "groups": [],
+            "votes": []
+          }
+        ],
+        "comments": [
+          {
+            "obj_id": "ZTF21aayrbnn",
+            "modified": "2021-06-15T08:57:25.515722",
+            "attachment_name": "ZTF21aayrbnn-T2CatalogMatch.json",
+            "origin": null,
+            "author_id": 20,
+            "id": 43741,
+            "created_at": "2021-05-05T06:02:18.900788",
+            "text": "T2CatalogMatch",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21aayrbnn",
+            "modified": "2021-06-15T08:57:25.822301",
+            "attachment_name": "ZTF21aayrbnn-T2LightCurveSummary.json",
+            "origin": null,
+            "author_id": 20,
+            "id": 43742,
+            "created_at": "2021-05-05T06:02:19.128627",
+            "text": "T2LightCurveSummary",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21aayrbnn",
+            "modified": "2021-05-13T15:09:37.964821",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 39,
+            "id": 46367,
+            "created_at": "2021-05-13T15:09:37.964821",
+            "text": "NOT spectrum obtained as a part of an observing school. Spectra can be used by everybody but please contact Jesper for further details.",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21aayrbnn",
+            "modified": "2021-05-13T15:10:13.405514",
+            "attachment_name": "ZTF21aayrbnn_NOT_2021-05-11T21:51:35.658_2400_comp0001_snidflux.ps",
+            "origin": null,
+            "author_id": 39,
+            "id": 46368,
+            "created_at": "2021-05-13T15:10:13.405514",
+            "text": "Redshift from SNID match.",
+            "bot": false
+          }
+        ]
+      },
+      {
+        "offset": 0.0,
+        "altdata": null,
+        "mpc_name": null,
+        "healpix": 577200162476471537,
+        "redshift": 0.0449,
+        "dist_nearest_source": null,
+        "gcn_crossmatch": null,
+        "internal_key": "65067c75-d3a5-4204-9d35-0893ab3b2083",
+        "redshift_error": null,
+        "mag_nearest_source": null,
+        "tns_name": "2021mfq",
+        "detect_photometry_count": null,
+        "ra_dis": null,
+        "redshift_origin": null,
+        "e_mag_nearest_source": null,
+        "tns_info": null,
+        "created_at": "2021-05-11T08:02:59.718934",
+        "id": "ZTF21abatolf",
+        "redshift_history": [
+          {
+            "value": "0.0349",
+            "set_at_utc": "2021-05-15T16:42:52.212332",
+            "set_by_user_id": 37
+          }
+        ],
+        "transient": false,
+        "score": 0.5266277194023132,
+        "modified": "2023-06-16T21:52:18.723790",
+        "dec_dis": null,
+        "host_id": null,
+        "varstar": false,
+        "ra": 222.5918297,
+        "dec": 2.1918,
+        "ra_err": null,
+        "summary": null,
+        "is_roid": false,
+        "origin": "Kowalski",
+        "dec_err": null,
+        "summary_history": null,
+        "alias": null,
+        "groups": [
+          {
+            "nickname": "rcf",
+            "name": "Redshift Completeness Factor",
+            "description": null,
+            "private": false,
+            "single_user_group": false,
+            "id": 41,
+            "created_at": "2020-10-21T06:20:34.429576",
+            "modified": "2020-10-21T06:20:34.429576",
+            "active": true,
+            "requested": false,
+            "saved_at": "2021-05-16T16:11:29.346803",
+            "saved_by": {
+              "username": "jdoe",
+              "first_name": "John",
+              "last_name": "Doe",
+              "bio": null,
+              "affiliations": [
+                "Caltech"
+              ],
+              "is_bot": false,
+              "expiration_date": null,
+              "id": 17,
+              "created_at": "2020-10-21T06:20:33.922182",
+              "modified": "2024-03-26T16:54:31.449418"
+            }
+          }
+        ],
+        "host": null,
+        "host_offset": null,
+        "gal_lon": -3.1861565481188934,
+        "gal_lat": 52.157132184955614,
+        "luminosity_distance": 205.68182226021543,
+        "dm": 36.56597955665249,
+        "angular_diameter_distance": 188.3850579002001,
+        "thumbnails": [
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=222.5918253&dec=2.1919461&size=200&layer=dr8&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21abatolf",
+            "id": 2969028,
+            "modified": "2021-05-11T08:02:59.804409",
+            "type": "dr8",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-11T08:02:59.804409"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://skyserver.sdss.org/dr18/SkyServerWS/ImgCutout/getjpeg?TaskName=SkyServer.Chart.List&ra=222.5918253&dec=2.1919461&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+            "obj_id": "ZTF21abatolf",
+            "id": 2969027,
+            "modified": "2021-05-11T08:02:59.804409",
+            "type": "sdss",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-11T08:02:59.804409"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/f0/43/ZTF21abatolf_new.png",
+            "public_url": "/static/thumbnails/f0/43/ZTF21abatolf_new.png",
+            "obj_id": "ZTF21abatolf",
+            "id": 2969029,
+            "modified": "2022-10-19T06:21:41.186333",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-11T08:03:02.112745"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/f0/43/ZTF21abatolf_ref.png",
+            "public_url": "/static/thumbnails/f0/43/ZTF21abatolf_ref.png",
+            "obj_id": "ZTF21abatolf",
+            "id": 2969030,
+            "modified": "2022-10-19T06:26:08.160360",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-11T08:03:02.224845"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/f0/43/ZTF21abatolf_sub.png",
+            "public_url": "/static/thumbnails/f0/43/ZTF21abatolf_sub.png",
+            "obj_id": "ZTF21abatolf",
+            "id": 2969031,
+            "modified": "2022-10-19T06:19:05.487859",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-11T08:03:02.387957"
+          },
+          {
+            "file_uri": null,
+            "public_url": "http://ps1images.stsci.edu/cgi-bin/fitscut.cgi?red=/rings.v3.skycell/1378/058/rings.v3.skycell.1378.058.stk.i.unconv.fits&blue=/rings.v3.skycell/1378/058/rings.v3.skycell.1378.058.stk.g.unconv.fits&green=/rings.v3.skycell/1378/058/rings.v3.skycell.1378.058.stk.r.unconv.fits&x=222.591773&y=2.191949&size=250&wcs=1&asinh=True&autoscale=99.750000",
+            "obj_id": "ZTF21abatolf",
+            "id": 3042734,
+            "modified": "2021-05-15T15:43:18.840366",
+            "type": "ps1",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-15T15:43:18.840366"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=222.5918297&dec=2.1918&size=200&layer=ls-dr9&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21abatolf",
+            "id": 12659394,
+            "modified": "2023-05-03T01:06:17.134781",
+            "type": "ls",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2023-05-03T01:06:17.134781"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://skyserver.sdss.org/dr18/SkyServerWS/ImgCutout/getjpeg?TaskName=SkyServer.Chart.List&ra=222.5918297&dec=2.1918&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+            "obj_id": "ZTF21abatolf",
+            "id": 12659393,
+            "modified": "2023-05-03T01:06:17.134781",
+            "type": "sdss",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2023-05-03T01:06:17.134781"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/f0/43/ZTF21abatolf_new.png",
+            "public_url": "/static/thumbnails/f0/43/ZTF21abatolf_new.png",
+            "obj_id": "ZTF21abatolf",
+            "id": 19622649,
+            "modified": "2024-08-22T19:38:24.563076",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T19:38:24.563076"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/f0/43/ZTF21abatolf_ref.png",
+            "public_url": "/static/thumbnails/f0/43/ZTF21abatolf_ref.png",
+            "obj_id": "ZTF21abatolf",
+            "id": 19622650,
+            "modified": "2024-08-22T19:38:25.415179",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T19:38:25.415179"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/f0/43/ZTF21abatolf_sub.png",
+            "public_url": "/static/thumbnails/f0/43/ZTF21abatolf_sub.png",
+            "obj_id": "ZTF21abatolf",
+            "id": 19622651,
+            "modified": "2024-08-22T19:38:25.578292",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T19:38:25.578292"
+          }
+        ],
+        "classifications": [
+          {
+            "classification": "Ia",
+            "probability": 0.9,
+            "author_id": 30,
+            "obj_id": "ZTF21abatolf",
+            "created_at": "2021-06-08T08:01:28.007661",
+            "origin": null,
+            "taxonomy_id": 3,
+            "ml": false,
+            "author_name": "noliver",
+            "id": 20632,
+            "modified": "2021-06-08T08:01:28.007661",
+            "groups": [],
+            "votes": []
+          },
+          {
+            "classification": "Ia",
+            "probability": 1.0,
+            "author_id": 1274,
+            "obj_id": "ZTF21abatolf",
+            "created_at": "2022-11-23T23:31:13.555048",
+            "origin": null,
+            "taxonomy_id": 1011,
+            "ml": true,
+            "author_name": "cnorth",
+            "id": 461132,
+            "modified": "2022-11-23T23:31:13.555048",
+            "groups": [],
+            "votes": []
+          }
+        ],
+        "comments": [
+          {
+            "obj_id": "ZTF21abatolf",
+            "modified": "2021-06-04T07:04:43.798450",
+            "attachment_name": "spec_auto_robot_lstep1__crr_b_ifu20210604_04_09_05_ZTF21abatolf_hostsub.png",
+            "origin": null,
+            "author_id": 30,
+            "id": 51308,
+            "created_at": "2021-06-04T07:04:43.798450",
+            "text": "tricky for SEDM, but spectrum has features consistent with reddened SNIa",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21abatolf",
+            "modified": "2021-06-04T07:05:14.264530",
+            "attachment_name": "ZTF21abatolf_snpyfit.png",
+            "origin": null,
+            "author_id": 30,
+            "id": 51309,
+            "created_at": "2021-06-04T07:05:14.264530",
+            "text": "early LC also consistent with reddened Ia, EBVhost = 1.17 mag",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21abatolf",
+            "modified": "2021-06-04T13:19:13.435983",
+            "attachment_name": "pysedm_report_auto_redo061346_lstep1__crr_b_ifu20210604_04_09_05_ZTF21abatolf.png",
+            "origin": null,
+            "author_id": 12,
+            "id": 51452,
+            "created_at": "2021-06-04T13:19:13.435983",
+            "text": "pysedm_report:spc2898",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21abatolf",
+            "modified": "2021-06-08T08:00:52.556462",
+            "attachment_name": "Screenshot 2021-06-08 at 09.59.34.png",
+            "origin": null,
+            "author_id": 30,
+            "id": 52146,
+            "created_at": "2021-06-08T08:00:52.556462",
+            "text": "P200 spec (-SDSS host spec) convincing for reddened SNIa classification",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21abatolf",
+            "modified": "2021-06-09T23:40:23.858837",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 17,
+            "id": 52438,
+            "created_at": "2021-06-09T23:40:23.858837",
+            "text": "Uploaded to TNS",
+            "bot": false
+          }
+        ]
+      },
+      {
+        "offset": 0.0,
+        "altdata": null,
+        "mpc_name": null,
+        "healpix": 1925194086507843895,
+        "redshift": 0.09249,
+        "dist_nearest_source": null,
+        "gcn_crossmatch": null,
+        "internal_key": "e8275620-3a04-49fe-bcc9-fc5e6050c56b",
+        "redshift_error": null,
+        "mag_nearest_source": null,
+        "tns_name": "2021lki",
+        "detect_photometry_count": null,
+        "ra_dis": null,
+        "redshift_origin": null,
+        "e_mag_nearest_source": null,
+        "tns_info": null,
+        "created_at": "2021-05-06T04:37:14.823127",
+        "id": "ZTF21aazhgbq",
+        "redshift_history": [
+          {
+            "value": "0.08249",
+            "set_at_utc": "2021-05-16T16:10:55.001814",
+            "set_by_user_id": 17
+          }
+        ],
+        "transient": false,
+        "score": 0.9998087882995605,
+        "modified": "2023-06-16T21:52:11.798457",
+        "dec_dis": null,
+        "host_id": null,
+        "varstar": false,
+        "ra": 147.9408178,
+        "dec": 6.0069365,
+        "ra_err": null,
+        "summary": null,
+        "is_roid": false,
+        "origin": "Kowalski",
+        "dec_err": null,
+        "summary_history": null,
+        "alias": null,
+        "groups": [
+          {
+            "nickname": "rcf",
+            "name": "Redshift Completeness Factor",
+            "description": null,
+            "private": false,
+            "single_user_group": false,
+            "id": 41,
+            "created_at": "2020-10-21T06:20:34.429576",
+            "modified": "2020-10-21T06:20:34.429576",
+            "active": true,
+            "requested": false,
+            "saved_at": "2021-05-16T16:10:36.546638",
+            "saved_by": {
+              "username": "jdoe",
+              "first_name": "John",
+              "last_name": "Doe",
+              "bio": null,
+              "affiliations": [
+                "Caltech"
+              ],
+              "is_bot": false,
+              "expiration_date": null,
+              "id": 17,
+              "created_at": "2020-10-21T06:20:33.922182",
+              "modified": "2024-03-26T16:54:31.449418"
+            }
+          }
+        ],
+        "host": null,
+        "host_offset": null,
+        "gal_lon": -129.08205423160555,
+        "gal_lat": 42.41278862906319,
+        "luminosity_distance": 437.8927040258334,
+        "dm": 38.20683854615111,
+        "angular_diameter_distance": 366.8873758386392,
+        "thumbnails": [
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=147.9407566&dec=6.0069282&size=200&layer=dr8&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21aazhgbq",
+            "id": 2860644,
+            "modified": "2021-05-06T04:37:14.901357",
+            "type": "dr8",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-06T04:37:14.901357"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://skyserver.sdss.org/dr18/SkyServerWS/ImgCutout/getjpeg?TaskName=SkyServer.Chart.List&ra=147.9407566&dec=6.0069282&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+            "obj_id": "ZTF21aazhgbq",
+            "id": 2860643,
+            "modified": "2021-05-06T04:37:14.901357",
+            "type": "sdss",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-06T04:37:14.901357"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/c3/af/ZTF21aazhgbq_new.png",
+            "public_url": "/static/thumbnails/c3/af/ZTF21aazhgbq_new.png",
+            "obj_id": "ZTF21aazhgbq",
+            "id": 2860647,
+            "modified": "2022-10-19T02:42:12.231968",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-06T04:37:16.327801"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/c3/af/ZTF21aazhgbq_ref.png",
+            "public_url": "/static/thumbnails/c3/af/ZTF21aazhgbq_ref.png",
+            "obj_id": "ZTF21aazhgbq",
+            "id": 2860648,
+            "modified": "2022-10-19T02:41:27.998853",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-06T04:37:16.437298"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/c3/af/ZTF21aazhgbq_sub.png",
+            "public_url": "/static/thumbnails/c3/af/ZTF21aazhgbq_sub.png",
+            "obj_id": "ZTF21aazhgbq",
+            "id": 2860650,
+            "modified": "2022-10-19T02:41:06.075166",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-06T04:37:16.569510"
+          },
+          {
+            "file_uri": null,
+            "public_url": "http://ps1images.stsci.edu/cgi-bin/fitscut.cgi?red=/rings.v3.skycell/1449/059/rings.v3.skycell.1449.059.stk.i.unconv.fits&blue=/rings.v3.skycell/1449/059/rings.v3.skycell.1449.059.stk.g.unconv.fits&green=/rings.v3.skycell/1449/059/rings.v3.skycell.1449.059.stk.r.unconv.fits&x=147.940844&y=6.006966&size=250&wcs=1&asinh=True&autoscale=99.750000",
+            "obj_id": "ZTF21aazhgbq",
+            "id": 2873191,
+            "modified": "2021-05-06T15:38:47.810491",
+            "type": "ps1",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-06T15:38:47.810491"
+          }
+        ],
+        "classifications": [],
+        "comments": []
+      },
+      {
+        "offset": 0.0,
+        "altdata": null,
+        "mpc_name": null,
+        "healpix": 511167776039900998,
+        "redshift": 0.0968,
+        "dist_nearest_source": null,
+        "gcn_crossmatch": null,
+        "internal_key": "32256076-cd1d-4999-97bd-213179b7adf9",
+        "redshift_error": null,
+        "mag_nearest_source": null,
+        "tns_name": "2021mhm",
+        "detect_photometry_count": null,
+        "ra_dis": null,
+        "redshift_origin": null,
+        "e_mag_nearest_source": null,
+        "tns_info": null,
+        "created_at": "2021-05-10T08:01:02.489824",
+        "id": "ZTF21abalnud",
+        "redshift_history": [
+          {
+            "value": "0.0668",
+            "set_at_utc": "2021-05-16T16:09:07.330329",
+            "set_by_user_id": 17
+          }
+        ],
+        "transient": false,
+        "score": 0.9996035695075989,
+        "modified": "2023-06-16T21:52:19.466429",
+        "dec_dis": null,
+        "host_id": null,
+        "varstar": false,
+        "ra": 138.291805,
+        "dec": 51.5338735,
+        "ra_err": null,
+        "summary": null,
+        "is_roid": false,
+        "origin": "Kowalski",
+        "dec_err": null,
+        "summary_history": null,
+        "alias": null,
+        "groups": [
+          {
+            "nickname": "rcf",
+            "name": "Redshift Completeness Factor",
+            "description": null,
+            "private": false,
+            "single_user_group": false,
+            "id": 41,
+            "created_at": "2020-10-21T06:20:34.429576",
+            "modified": "2020-10-21T06:20:34.429576",
+            "active": true,
+            "requested": false,
+            "saved_at": "2021-05-16T16:08:42.884122",
+            "saved_by": {
+              "username": "jdoe",
+              "first_name": "John",
+              "last_name": "Doe",
+              "bio": null,
+              "affiliations": [
+                "Caltech"
+              ],
+              "is_bot": false,
+              "expiration_date": null,
+              "id": 17,
+              "created_at": "2020-10-21T06:20:33.922182",
+              "modified": "2024-03-26T16:54:31.449418"
+            }
+          }
+        ],
+        "host": null,
+        "host_offset": null,
+        "gal_lon": 166.52357747419245,
+        "gal_lat": 42.68598106329256,
+        "luminosity_distance": 459.6185602074899,
+        "dm": 38.311987789734665,
+        "angular_diameter_distance": 382.06976775043904,
+        "thumbnails": [
+          {
+            "file_uri": null,
+            "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=138.2918194&dec=51.5338981&size=200&layer=dr8&pixscale=0.262&bands=grz",
+            "obj_id": "ZTF21abalnud",
+            "id": 2942449,
+            "modified": "2021-05-10T08:01:02.570846",
+            "type": "dr8",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-10T08:01:02.570846"
+          },
+          {
+            "file_uri": null,
+            "public_url": "https://skyserver.sdss.org/dr18/SkyServerWS/ImgCutout/getjpeg?TaskName=SkyServer.Chart.List&ra=138.2918194&dec=51.5338981&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+            "obj_id": "ZTF21abalnud",
+            "id": 2942448,
+            "modified": "2021-05-10T08:01:02.570846",
+            "type": "sdss",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-10T08:01:02.570846"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/a5/85/ZTF21abalnud_new.png",
+            "public_url": "/static/thumbnails/a5/85/ZTF21abalnud_new.png",
+            "obj_id": "ZTF21abalnud",
+            "id": 2942457,
+            "modified": "2022-10-19T05:30:11.632502",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-10T08:01:07.113323"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/a5/85/ZTF21abalnud_ref.png",
+            "public_url": "/static/thumbnails/a5/85/ZTF21abalnud_ref.png",
+            "obj_id": "ZTF21abalnud",
+            "id": 2942459,
+            "modified": "2022-10-19T05:31:29.941778",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-10T08:01:07.254026"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/a5/85/ZTF21abalnud_sub.png",
+            "public_url": "/static/thumbnails/a5/85/ZTF21abalnud_sub.png",
+            "obj_id": "ZTF21abalnud",
+            "id": 2942460,
+            "modified": "2022-10-19T05:31:46.595290",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2021-05-10T08:01:07.385233"
+          },
+          {
+            "file_uri": null,
+            "public_url": "http://ps1images.stsci.edu/cgi-bin/fitscut.cgi?red=/rings.v3.skycell/2312/084/rings.v3.skycell.2312.084.stk.i.unconv.fits&blue=/rings.v3.skycell/2312/084/rings.v3.skycell.2312.084.stk.g.unconv.fits&green=/rings.v3.skycell/2312/084/rings.v3.skycell.2312.084.stk.r.unconv.fits&x=138.291957&y=51.533906&size=250&wcs=1&asinh=True&autoscale=99.750000",
+            "obj_id": "ZTF21abalnud",
+            "id": 3049866,
+            "modified": "2021-05-16T16:07:36.460671",
+            "type": "ps1",
+            "origin": null,
+            "is_grayscale": false,
+            "created_at": "2021-05-16T16:07:36.460671"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/a5/85/ZTF21abalnud_new.png",
+            "public_url": "/static/thumbnails/a5/85/ZTF21abalnud_new.png",
+            "obj_id": "ZTF21abalnud",
+            "id": 19624911,
+            "modified": "2024-08-22T20:25:03.913887",
+            "type": "new",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T20:25:03.913887"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/a5/85/ZTF21abalnud_ref.png",
+            "public_url": "/static/thumbnails/a5/85/ZTF21abalnud_ref.png",
+            "obj_id": "ZTF21abalnud",
+            "id": 19624912,
+            "modified": "2024-08-22T20:25:04.399093",
+            "type": "ref",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T20:25:04.399093"
+          },
+          {
+            "file_uri": "/skyportal/static/thumbnails/a5/85/ZTF21abalnud_sub.png",
+            "public_url": "/static/thumbnails/a5/85/ZTF21abalnud_sub.png",
+            "obj_id": "ZTF21abalnud",
+            "id": 19624913,
+            "modified": "2024-08-22T20:25:04.571917",
+            "type": "sub",
+            "origin": null,
+            "is_grayscale": true,
+            "created_at": "2024-08-22T20:25:04.571917"
+          }
+        ],
+        "classifications": [
+          {
+            "classification": "Ia",
+            "probability": 0.91719,
+            "author_id": 12,
+            "obj_id": "ZTF21abalnud",
+            "created_at": "2021-06-04T05:53:52.392049",
+            "origin": null,
+            "taxonomy_id": 3,
+            "ml": false,
+            "author_name": "sedm-robot",
+            "id": 20584,
+            "modified": "2021-06-04T05:53:52.392049",
+            "groups": [],
+            "votes": []
+          },
+          {
+            "classification": "Ia",
+            "probability": 0.94794,
+            "author_id": 12,
+            "obj_id": "ZTF21abalnud",
+            "created_at": "2021-06-04T13:26:45.748311",
+            "origin": null,
+            "taxonomy_id": 3,
+            "ml": false,
+            "author_name": "sedm-robot",
+            "id": 20588,
+            "modified": "2021-06-04T13:26:45.748311",
+            "groups": [],
+            "votes": []
+          },
+          {
+            "classification": "Ia",
+            "probability": 1.0,
+            "author_id": 1274,
+            "obj_id": "ZTF21abalnud",
+            "created_at": "2022-11-23T23:31:10.757118",
+            "origin": null,
+            "taxonomy_id": 1011,
+            "ml": true,
+            "author_name": "cnorth",
+            "id": 461125,
+            "modified": "2022-11-23T23:31:10.757118",
+            "groups": [],
+            "votes": []
+          }
+        ],
+        "comments": [
+          {
+            "obj_id": "ZTF21abalnud",
+            "modified": "2021-06-01T11:41:31.286302",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 23,
+            "id": 50544,
+            "created_at": "2021-06-01T11:41:31.286302",
+            "text": "reallocated",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21abalnud",
+            "modified": "2021-06-04T05:53:52.224968",
+            "attachment_name": "pysedm_report_auto_robot_lstep1__crr_b_ifu20210604_04_56_32_ZTF21abalnud.png",
+            "origin": null,
+            "author_id": 12,
+            "id": 51254,
+            "created_at": "2021-06-04T05:53:52.224968",
+            "text": "pysedm_report:spc2890",
+            "bot": true
+          },
+          {
+            "obj_id": "ZTF21abalnud",
+            "modified": "2021-06-04T05:54:01.602871",
+            "attachment_name": null,
+            "origin": null,
+            "author_id": 12,
+            "id": 51255,
+            "created_at": "2021-06-04T05:54:01.602871",
+            "text": "Uploaded to TNS",
+            "bot": false
+          },
+          {
+            "obj_id": "ZTF21abalnud",
+            "modified": "2021-06-04T13:26:45.588403",
+            "attachment_name": "pysedm_report_auto_contsep_lstep1__crr_b_ifu20210604_04_56_32_ZTF21abalnud.png",
+            "origin": null,
+            "author_id": 12,
+            "id": 51456,
+            "created_at": "2021-06-04T13:26:45.588403",
+            "text": "pysedm_report:spc2899",
+            "bot": true
+          }
+        ]
+      }
+    ],
+    "pageNumber": 1,
+    "numPerPage": 25,
+    "group_id": 41
+  },
+  "version": "1.0.0+fritz.55d73ac"
+}
