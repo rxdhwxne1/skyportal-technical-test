@@ -5,14 +5,13 @@ import ollama
 import random
 
 # Fictif names list
-FIRST_NAMES = ["Stephen", "Lebron", "Victor", "Kevin", "James", "Jason", "Kyrie", "Jon", "Stipe", "Khabib", "Conor", "Kamaru"]
-LAST_NAMES = ["Curry", "James", "Wembanyama", "Durant", "Harden", "Tatum", "Irving", "Jones", "Miocic", "Nurmagomedov", "McGregor", "Usman"]
+NAMES = ["Stephen Curry", "Lebron James", "Victor Wembanyama", "Kevin Durant", "James Harden", "Jason Tatum", "Kyrie Irving", "Jon Jones", "Stipe Miocic", "Khabib Nurmagomedov", "Conor McGregor", "Kamaru Usman"]
 
 # Dictionnary to store author_id -> author_name associations
 AUTHOR_ID_TO_NAME = {}
 
 def generate_fake_name():
-    return f"{random.choice(FIRST_NAMES) + ' ' + random.choice(LAST_NAMES)}"
+    return f"{random.choice(NAMES)}"
 
 def create_author_mapping(data):
     author_ids = set()
@@ -61,6 +60,7 @@ def clean_data(obj):
         {
             'classification': c['classification'],
             'probability': c.get('probability', None),
+            'created_at': c['created_at'],
             'author_name': AUTHOR_ID_TO_NAME.get(c.get('author_id'), 'Unknown'),
             'ml_generated': c['ml']
         }
@@ -99,7 +99,6 @@ def clean_data(obj):
 
     return cleaned_obj
 
-
 # Clean the data for all objects
 cleaned_objects = [clean_data(obj) for obj in data['data']['sources']]
 
@@ -116,28 +115,35 @@ def create_prompt(obj):
     ]) if obj['comments'] else 'None'
 
     data_block = f"""
+    Object ID: {obj['id']}
     Object Name: {obj['tns_name'] or 'N/A'}
     Position: {obj['RA/Dec']}
     Redshift: {obj['redshift'] or 'None'}
+    Luminosity Distance: {obj['luminosity_distance'] or 'N/A'}
     Classification: {classifications_str}
     Key Comments: {comments_str}
     Thumbnail URLs: {', '.join(obj['thumbnails']) if obj['thumbnails'] else 'None'}
     """
 
     prompt = f"""
-    Summarize the following data on astronomical transients observed on 16/05/2021 for an experienced astronomer audience.
-    Provide the object name, position, redshift, classification, and summarize key actions such as spectra taken,
-    comments of interest, or significant classifications. About the comment and classification data: put them only if they are not empty.
-    Highlight the names of the authors of the comments or classifications like : (by Author Name).
-    Indicate clearly when the classification or comment was done by a bot or by ML pipelines.
-    Provide the thumbnail URLs for reference.
-    Use a formal tone.
+    For astronomical transients from 16/05/2021:
+    Report for the object:
+    1. Name and ID
+    2. Position: RA/Dec (format: RA: / Dec: )
+    3. Redshift and Luminosity Distance
+    4. Key observations and spectra obtained
+    5. Notable comments with author attribution [Author Name], limited to 1-2 sentences summarizing key insights
+    6. Bot/ML classifications marked as [Bot/ML-generated]
+    7. Thumbnail URL
+    
+    If comments and classifications share the same timestamp, group them and indicate the association.
+    Limit the response to the data provided, using professional astronomical notation.
+    Use professional astronomical notation.
+    Format the report concisely and in the above structure.
 
     Data: {data_block}
     """
     return prompt
-
-
 
 # Function to generate a summary using Ollama
 def generate_summary(prompt):
@@ -150,36 +156,52 @@ def generate_summary(prompt):
     except Exception as e:
         return f"Error generating summary: {e}"
 
+# Initialisation of the summaries set in session_state
+if 'summaries' not in st.session_state:
+    st.session_state.summaries = set()
+
 # Streamlit interface
 st.title("Daily Summaries of Astronomical Actions")
 st.write("Select a group and an object by TNS Name to view the summary.")
 
-# Add a dropdown menu to select the group
+# Add dropdown to select a group
 selected_group = st.selectbox("Select a group", unique_groups)
 
-# Filter objects based on the selected group
+# Filter objects based on selected group
 filtered_objects = [obj for obj in cleaned_objects if selected_group in obj['groups']]
 
-# Add a selectbox to choose the object by tns_name
+# Add dropdown to select an object by TNS Name
 tns_names = [obj['tns_name'] for obj in filtered_objects if obj['tns_name'] != 'N/A']
 selected_tns_name = st.selectbox("Select an object by TNS Name", tns_names)
 
-# Validate button to generate the summary
 validate_button = st.button("Generate Summary")
 
-timer = st.empty()
-start_time = datetime.now()
-
-# Generate and display the summary for the selected object
+# Generate the summary if the button is clicked
 if validate_button:
     selected_obj = next((obj for obj in filtered_objects if obj['tns_name'] == selected_tns_name), None)
     if selected_obj:
         with st.spinner("Generating summary..."):
             prompt = create_prompt(selected_obj)
             summary = generate_summary(prompt)
-            st.subheader(f"Summary for Object {selected_tns_name}")
-            # Display the time taken to generate the summary
-            timer.write(f"Time taken to generate summary: {datetime.now() - start_time}")
-            st.write(summary)
+            
+            # Add the summary to the set in session_state
+            st.session_state.summaries.add(f"Summary for {selected_tns_name}:\n{summary}")
+            
+            st.success("Summary generated successfully!")
     else:
         st.write("Selected object not found.")
+
+
+if st.session_state.summaries:
+    st.subheader("Previously Generated Summaries")
+    summary_titles = [summary.split("\n")[0].replace("Summary for ", "") for summary in st.session_state.summaries]
+
+    selected_summary_title = st.selectbox("Select a summary to view", summary_titles)
+
+    # Display the selected summary
+    selected_summary = next(
+        (summary for summary in st.session_state.summaries if f"Summary for {selected_summary_title}" in summary),
+        None
+    )
+    if selected_summary:
+        st.write(selected_summary)
