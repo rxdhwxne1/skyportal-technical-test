@@ -5,10 +5,10 @@ import ollama
 import random
 
 # Fictif names list
-NAMES = ["Stephen Curry (generated)", "Lebron James (generated)", "Victor Wembanyama (generated)",
-         "Kevin Durant (generated)", "James Harden (generated)", "Jason Tatum (generated)",
-         "Kyrie Irving (generated)", "Jon Jones (generated)", "Stipe Miocic (generated)",
-         "Khabib Nurmagomedov (generated)", "Conor McGregor (generated)", "Kamaru Usman (generated)"]
+NAMES = ["S.Curry (generated name)", "L.James (generated name)", "V.Wembanyama (generated name)",
+         "K.Durant (generated name)", "J.Harden (generated name)", "J.Tatum (generated name)",
+         "K.Irving (generated name)", "J.Jones (generated name)", "S.Miocic (generated name)",
+         "K.Nurmagomedov (generated name)", "C.McGregor (generated name)", "K.Usman (generated name)"]
 
 # Dictionnary to store author_id -> author_name associations
 AUTHOR_ID_TO_NAME = {}
@@ -108,7 +108,6 @@ def create_prompt(obj):
     ]) if obj['comments'] else 'None'
 
     data_block = f"""
-    Object ID: {obj['id']}
     Object Name: {obj['tns_name'] or 'N/A'}
     Position: {obj['RA/Dec']}
     Redshift: {obj['redshift'] or 'None'}
@@ -153,7 +152,7 @@ def create_prompt(obj):
     6. About the comments and classification, if someone made multiple comments or classifications, make a list of them.
     7. Thumbnail URLs: Provide all available URLs in a bullet-point list with newlines between each URL.
 
-    Data: {data_block}
+    Data: {data_block} 
     """
     return prompt
 
@@ -161,7 +160,7 @@ def create_prompt(obj):
 def generate_summary(prompt):
     try:
         response = ollama.chat(
-            model="llama3.2",
+            model="llama3.2:1b",
             messages=[{"role": "user", "content": prompt}],
         )
         return response['message']['content']
@@ -188,17 +187,21 @@ selected_tns_name = st.selectbox("Select an object by TNS Name", tns_names)
 
 validate_button = st.button("Generate Summary")
 
+import time
+
 # Generate the summary if the button is clicked
 if validate_button:
     selected_obj = next((obj for obj in filtered_objects if obj['tns_name'] == selected_tns_name), None)
     if selected_obj:
         with st.spinner("Generating summary..."):
+            start = time.time()
             prompt = create_prompt(selected_obj)
             summary = generate_summary(prompt)
 
+            end = time.time()
             # Add or update the summary in the session_state dictionary
             st.session_state.summaries[selected_tns_name] = f"Summary for {selected_tns_name}:\n{summary}"
-
+            st.write(f"Summary generated in {end - start:.2f} seconds.")
             st.success("Summary generated successfully!")
     else:
         st.write("Selected object not found.")
