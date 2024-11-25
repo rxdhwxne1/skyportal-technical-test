@@ -5,7 +5,10 @@ import ollama
 import random
 
 # Fictif names list
-NAMES = ["Stephen Curry (generated)", "Lebron James (generated)", "Victor Wembanyama (generated)", "Kevin Durant (generated)", "James Harden (generated)", "Jason Tatum (generated)", "Kyrie Irving (generated)", "Jon Jones (generated)", "Stipe Miocic (generated)", "Khabib Nurmagomedov (generated)", "Conor McGregor (generated)", "Kamaru Usman (generated)"]
+NAMES = ["Stephen Curry (generated)", "Lebron James (generated)", "Victor Wembanyama (generated)",
+         "Kevin Durant (generated)", "James Harden (generated)", "Jason Tatum (generated)",
+         "Kyrie Irving (generated)", "Jon Jones (generated)", "Stipe Miocic (generated)",
+         "Khabib Nurmagomedov (generated)", "Conor McGregor (generated)", "Kamaru Usman (generated)"]
 
 # Dictionnary to store author_id -> author_name associations
 AUTHOR_ID_TO_NAME = {}
@@ -20,17 +23,13 @@ def create_author_mapping(data):
         for source in obj.get('comments', []) + obj.get('classifications', []):
             author_id = source.get('author_id')
             author_name = source.get('author_name')
-            
             if author_id:
                 author_ids.add(author_id)
-            
             if author_name and author_id not in AUTHOR_ID_TO_NAME:
                 AUTHOR_ID_TO_NAME[author_id] = author_name
-
     for author_id in author_ids:
         if author_id not in AUTHOR_ID_TO_NAME:
             AUTHOR_ID_TO_NAME[author_id] = generate_fake_name()
-
     return AUTHOR_ID_TO_NAME
 
 # Load the JSON file
@@ -123,24 +122,24 @@ def create_prompt(obj):
     Using ONLY the data provided, generate a structured scientific summary for astronomers about the object and its recent actions. 
     Follow the format and guidelines below to ensure clarity and consistency with standard astronomical reporting:
 
-    Structured Summary:
+    Structure for the summary:
 
-    **Object Name:**  
+    Object Name:
     [Object Name]
 
-    **Position (RA/Dec):**  
+    Position (RA/Dec):
     [RA/Dec values]
 
-    **Redshift:**  
+    Redshift:
     [Redshift value, or "None" if unavailable]
 
-    **Classifications:**  
+    Classifications:
     - [Classification Name] (by [Author Name] OR [ML-generated] if applicable)
 
-    **Key Comments:**  
+    Key Comments:
     - [Comment Text] (by [Author Name] OR [Bot-generated] if applicable)  
 
-    **Thumbnail Links:**  
+    Thumbnail Links:
     - [list of URLs]
 
     ---
@@ -152,7 +151,7 @@ def create_prompt(obj):
     4. Contextual Relevance: If classifications and comments share a timestamp, link them to highlight potential contextual relationships.
     5. Brevity and Clarity: Keep the summary concise while ensuring it remains scientifically comprehensive. 
     6. About the comments and classification, if someone made multiple comments or classifications, make a list of them.
-    7. Thumbnail URLs: Provide all available URLs in a bullet-point list.
+    7. Thumbnail URLs: Provide all available URLs in a bullet-point list with newlines between each URL.
 
     Data: {data_block}
     """
@@ -207,10 +206,18 @@ if validate_button:
 if st.session_state.summaries:
     st.subheader("Previously Generated Summaries")
     summary_titles = list(st.session_state.summaries.keys())  # Get all object names
-
     selected_summary_title = st.selectbox("Select a summary to view", summary_titles)
-
     # Display the selected summary
     selected_summary = st.session_state.summaries[selected_summary_title]
-    if selected_summary:
+    display_summary = st.button("Display Selected Summary")
+    if display_summary:
         st.write(selected_summary)
+        stop_display = st.button("Stop Display")
+        if stop_display:
+            st.empty()
+    # display all summaries
+    display_all = st.button("Display All Summaries")
+    if display_all:
+        st.subheader("All Summaries")
+        for resume in st.session_state.summaries:
+            st.write(st.session_state.summaries[resume])
