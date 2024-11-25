@@ -51,7 +51,7 @@ The project uses Ollama to manage the Llama 3.2 language model.
 - Run the Llama 3.2 model locally:
 
 ```bash
-ollama run llama3.2
+ollama run llama3.2:1b
 ```
 
 Step 5. Run the Streamlit App:
