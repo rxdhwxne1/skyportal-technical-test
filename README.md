@@ -20,7 +20,7 @@ The objective of this project is to automate the generation of daily digest summ
 - Data Cleaning: Extracts relevant information from the filtered objects, including the most recent redshift value, classifications, and comments.
 - Prompt Generation: Creates a prompt for the Ollama model to generate a summary.
 - Summary Generation: Uses the Ollama model to generate a summary based on the prompt.
-- Interactive Interface: Provides an interactive Streamlit interface to display the cleaned data and generate summaries for selected objects.
+- Interactive Interface: Provides an interactive Streamlit interface to generate summaries of the cleaned data and display summaries for selected objects.
 
 ## Installation
 
@@ -65,10 +65,11 @@ streamlit run project.py
 2. Filter and Clean Data: The application filters objects saved on 16/05/2021 and cleans the data to extract relevant information.
 3. Select Object: Use the Streamlit interface to select the index of the object you want to summarize.
 4. Generate Summary: Click the "Validate" button to generate and display the summary for the selected object.
+5. Display Summary: Choose one specific summary to display or display all summaries.
 
 ## Code Structure
 
-- projet.py: The main script that contains the data filtering, cleaning, prompt generation, summary generation, and Streamlit interface.
+- project.py: The main script that contains the data filtering, cleaning, prompt generation, summary generation, and Streamlit interface.
 - rcf_sample_sources.json: The JSON file containing the sample data.
 - requirements.txt: The file listing the project dependencies.
 
