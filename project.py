@@ -3,6 +3,7 @@ from datetime import datetime
 import streamlit as st
 import ollama
 import random
+import time
 
 # Fictif names list
 NAMES = ["S.Curry (generated name)", "L.James (generated name)", "V.Wembanyama (generated name)",
@@ -186,8 +187,6 @@ tns_names = [obj['tns_name'] for obj in filtered_objects if obj['tns_name'] != '
 selected_tns_name = st.selectbox("Select an object by TNS Name", tns_names)
 
 validate_button = st.button("Generate Summary")
-
-import time
 
 # Generate the summary if the button is clicked
 if validate_button:
