@@ -98,7 +98,7 @@ st.title("Daily Summaries of Astronomical Actions")
 # Step 1: User defines the structure of the summary
 st.subheader("Step 1: Define Summary Structure")
 structure = st.text_area(
-    "Enter the structure you want Ollama to follow for generating the summary:",
+    "Enter the structure you want Ollama to follow for generating the summary (below is just an example, you can adapt it or modify it):",
     height=200,
     value='''Object Name:
        [Object Name]
