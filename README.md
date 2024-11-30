@@ -48,7 +48,7 @@ Step 4. Install and Configure Ollama:
 
 The project uses Ollama to manage the Llama 3.2 language model.
 - Download and install Ollama from [ollama.com](https://ollama.com).
-- Run the Llama 3.2 model locally:
+- Run the Llama 3.2:1 model locally:
 
 ```bash
 ollama run llama3.2:1b
