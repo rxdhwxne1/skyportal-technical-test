@@ -142,6 +142,8 @@ def create_prompt(obj):
         Avoid providing unnecessary background explanations or basic astronomical concepts.
         If any data is missing, explicitly state it, e.g., “No classifications available” or “No spectra available.”
         Do not include personal opinions or speculative interpretations.
+        
+    You must not return the input data in the summary.
     Input Data: {data_block}
     """
     return prompt
